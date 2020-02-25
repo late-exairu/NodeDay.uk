@@ -1,5 +1,6 @@
 ---
 pageKey: main
+title: NodeDayUK
 
 ---
 
@@ -10,34 +11,19 @@ pageKey: main
 {% include "partials/_header.html" %}
 
 	<main class="content">
-    <br/>
-    <br/>
-    <br/>
-    <h1>{{ pages[pageKey].titleSeo }}</h1>
-    <h2>{{ pages[pageKey].titlePage | safe }}</h2>
-		<div>
-      {% for stat in pages[pageKey].pageStatistics.hero %}
-        <p>
-        <span>{{ stat.title }}</span>
-        <span> - </span>
-        <span>{{ stat.num }}</span>
-        </p>
-      {% endfor %}
-    </div>
 
-    <div>
-      {{ mixins.text(pieceOfTexts, 'event__descr') }}
-    </div>
+		{% include "partials/_hero.html" %}
+		{% include "partials/_event.html" %}
 
-    <h3>{{ speakersBtn }}</h3>
+		{# {% include "partials/_dates.html" %} #}
+		{# {% include "partials/_team.html" %} #}
+		{# {% include "partials/_follow-us.html" %} #}
+		{# {% include "partials/_committee.html" %} #}
+		{# {% include "partials/_advice-lounge.html" %} #}
+		{# {% include "partials/_schedule.html" %} #}
 
-    <div>
-      <ul>
-        {% for person in speakers[pageKey] %}
-          <li>{{ person.name }}</li>
-        {% endfor %}
-      </ul>
-    </div>
+		{% include "partials/_follow-us-more.html" %}
+
 
 	</main><!-- .content -->
 

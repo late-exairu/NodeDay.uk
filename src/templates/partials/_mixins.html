@@ -1,0 +1,109 @@
+{% macro icon(i) %}
+<svg class="icon icon-{{i}}"><use xlink:href="img/sprite-inline.svg#{{i}}"></use></svg>
+{% endmacro %}
+
+{% macro slider(conf) %}
+	<div class="loc-slider">
+		{% for item in conf.source %}
+		<div class="loc-slider__item">
+			<img src="pic/{{item.img}}">
+		</div>
+		{% endfor %}
+	</div>
+
+	<div class="loc-slider-nav">
+		<div class="pagination"></div>
+		<div class="captions">
+			{% for item in conf.source %}
+			<div class="caption">{{item.caption}}</div>
+			{% endfor %}
+		</div>
+	</div>
+{% endmacro %}
+
+{% macro socials(conf) %}
+	<li class="socials__item">
+		<a href="{{item.link}}" target="_blank" class="socials__link">
+			<svg class="socials__img {{item.icon}}" role="img" aria-hidden="true">
+				<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v2#{{item.icon}}"></use>
+			</svg>
+		</a>
+	</li>
+{% endmacro %}
+
+{% macro avatarWithDetails(activity, item, hideTrack) %}
+	<div class="teammate__details">
+		{% if (activity) %}
+			<div class="activity-holder">
+				<div class="slider">
+					<div class="s-item__col ">
+						<div class="slider__title s-item__text">
+							{% if not hideTrack %}
+								<span>{{activity.timeString}}</span>
+								<span>{{activity.track.name}}</span>
+							{% endif %}
+						</div>
+						<div class="s-item__title">{{activity.title}}</div>
+						<div class="s-item__description">
+						<a class="anchor-item" href="#{{ activity.slug }}">
+							see more...
+						</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		{% endif %}
+	</div>
+{% endmacro %}
+
+{% macro teammate(person, classes, hideTrack) %}
+<div class="teammate {{ classes }} {{person.mod}} {% if person.decor %}teammate_decor{% endif %}" style="--tag-clr: {{person.tagBG}};">
+	<span class="anchor" id="person-{{ person.slug }}"></span>
+	<div class="teammate__top">
+		<div class="teammate__img">
+			<img src="{{person.avatar}}">
+
+			{{ avatarWithDetails(person.activities.talks[0], person, hideTrack) }}
+		</div>
+
+		{% if person.label %}
+			<div class="teammate__tag" style="color: {{person.color}};">{{person.label}}</div>
+		{% endif %}
+	</div>
+	<div class="teammate__content">
+		<div class="teammate__inner">
+			<div class="teammate__inner-content">
+				<div class="teammate__name">
+				<a class="anchor-item" href="#person-{{ person.slug }}">
+					{{person.name}}
+				</a>
+				</div>
+				<div class="teammate__company">{{person.company}}</div>
+				<div class="teammate__info">{{person.bio | safe}}</div>
+			</div>
+			<div class="teammate__footer">
+				<div class="teammate__socials">
+					<ul class="socials">
+						{% for item in person.socials %}
+						<li class="socials__item"><a class="socials__link" target="_blank" href="{{item.link}}">{{icon(item.icon)}}</a></li>
+						{% endfor %}
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{% endmacro %}
+
+{% macro cmsData(entry) %}
+  data-id="{{ entry.id }}"
+  data-content-type="{{ entry.contentType }}"
+  data-id-alt="{{ entry.idAlt }}"
+  data-content-type-alt="{{ entry.contentTypeAlt }}"
+{% endmacro %}
+
+{% macro text(pieceOfTexts, key) %}
+  <span class="graphcms-container" {{ cmsData(pieceOfTexts[key]) }}>
+  {{ pieceOfTexts[key].html | safe }}
+  </span>
+{% endmacro %}

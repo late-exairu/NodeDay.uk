@@ -1,0 +1,71 @@
+/*----- Buttons -----*/
+
+.btns-wrap
+	display: flex
+	flex-wrap: wrap
+
+	.basic-btn
+		min-width: 208px
+		margin: 0 16px 0 0
+		fill: var(--clr-black)
+
+		&:last-child
+			margin: 0
+
+		+lg
+			margin: 0 16px 18px 0
+
+			&:last-child
+				margin: 0
+
+
+.basic-btn
+	display: inline-flex
+	font: 14px/1.36 var(--fira)
+	font-size: 14px
+	height: 48px
+	padding: 0 14px
+	font-weight: 700
+	justify-content: center
+	background: var(--clr-green)
+	color: var(--clr-black)
+	align-items: center
+	text-align: center
+	text-decoration: none
+	overflow: hidden
+	outline: none
+	border: 2px solid transparent
+	cursor: pointer
+	box-shadow: 0 0 0 var(--clr-black)
+	flex-shrink: 0
+
+	&:hover
+		box-shadow: -6px 6px 0 var(--clr-black)
+
+	.icon-arrow-link
+		width: 14px
+		height: 13px
+		margin: 0 0 0 10px
+		transition: all ease 0.1s
+
+	&.btn-white
+		background: var(--clr-white)
+		color: var(--clr-black)
+		box-shadow: 0 0 0 var(--clr-black)
+
+	&.bordered
+		color: var(--clr-green)
+		background: transparent
+		border-color: var(--clr-green)
+
+		.icon-arrow-link
+			fill: var(--clr-green)
+
+		&:hover
+			background: var(--clr-green)
+			color: var(--clr-black)
+
+			.icon-arrow-link
+				fill: var(--clr-black)
+			
+			

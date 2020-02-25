@@ -2,73 +2,113 @@
 	background: url("../sprite.svg") no-repeat;
 }
 
-.svg-socials_fb {
+.svg-arrow-link {
 	@extend %svg-common;
 	background-position: 0 0;
 }
 
-.svg-socials_fb-dims {
-	width: 6px;
-	height: 12px;
+.svg-arrow-link-dims {
+	width: 14px;
+	height: 13px;
 }
 
-.svg-socials_gh {
+.svg-calendar {
 	@extend %svg-common;
-	background-position: 7.0588235294117645% 15.189873417721518%;
+	background-position: 6.511627906976744% 6.532663316582915%;
 }
 
-.svg-socials_gh-dims {
+.svg-calendar-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-fb {
+	@extend %svg-common;
+	background-position: 19.913419913419915% 21.73913043478261%;
+}
+
+.svg-fb-dims {
+	width: 16px;
+	height: 24px;
+}
+
+.svg-gh {
+	@extend %svg-common;
+	background-position: 27.43362831858407% 32.70142180094787%;
+}
+
+.svg-gh-dims {
 	width: 21px;
 	height: 20px;
 }
 
-.svg-socials_med {
+.svg-location {
 	@extend %svg-common;
-	background-position: 29.69317057076872% 36.7816091954023%;
+	background-position: 38.604651162790695% 44.72361809045226%;
 }
 
-.svg-socials_med-dims {
-	width: 15.07px;
-	height: 12px;
+.svg-location-dims {
+	width: 32px;
+	height: 32px;
 }
 
-.svg-socials_sl {
+.svg-mail {
 	@extend %svg-common;
-	background-position: 46.84912403033208% 51.89842063669926%;
+	background-position: 53.48837209302326% 58.875048657065%;
 }
 
-.svg-socials_sl-dims {
-	width: 14.216px;
-	height: 14.219px;
+.svg-mail-dims {
+	width: 32px;
+	height: 25.48px;
 }
 
-.svg-socials_tw {
+.svg-med {
 	@extend %svg-common;
-	background-position: 63.70826010544816% 67.816091954023%;
+	background-position: 65.33333333333333% 68.69158878504673%;
 }
 
-.svg-socials_tw-dims {
-	width: 14.96px;
-	height: 12px;
+.svg-med-dims {
+	width: 22px;
+	height: 17px;
 }
 
-.svg-socials_web {
+.svg-sl {
 	@extend %svg-common;
-	background-position: 81.11111111111111% 85.5421686746988%;
+	background-position: 72.59450171821305% 75.64575645756457%;
 }
 
-.svg-socials_web-dims {
+.svg-sl-dims {
+	width: 14.2px;
+	height: 14.2px;
+}
+
+.svg-tw {
+	@extend %svg-common;
+	background-position: 82.14285714285714% 85.23809523809524%;
+}
+
+.svg-tw-dims {
+	width: 23px;
+	height: 21px;
+}
+
+.svg-we {
+	@extend %svg-common;
+	background-position: 89.6103896103896% 93.02325581395348%;
+}
+
+.svg-we-dims {
 	width: 16px;
 	height: 16px;
 }
 
-.svg-socials_yt {
+.svg-yt {
 	@extend %svg-common;
 	background-position: 100% 100%;
 }
 
-.svg-socials_yt-dims {
-	width: 17px;
-	height: 12px;
+.svg-yt-dims {
+	width: 24px;
+	height: 15px;
 }
 

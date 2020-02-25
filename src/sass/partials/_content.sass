@@ -1,0 +1,64 @@
+/*----- Content -----*/
+
+.content 
+	flex: 1
+
+.section
+
+	&.light
+		color: var(--clr-black)
+
+	&.dark
+		background: none
+
+	&__head
+		display: flex
+
+		+med
+			flex-direction: column
+
+	&__head-l
+		flex: 0 1 52%
+
+		+med
+			flex: 0 1 100%
+
+	&__head-r
+		flex: 0 1 48%
+		display: flex
+
+		.basic-btn
+			margin: auto 0 auto auto
+
+		
+	&__title
+		font-family: var(--fira)
+		font-weight: bold
+		font-size: 32px
+		line-height: 1
+		margin: 0px 0 25px
+		color: var(--clr-green)
+
+		+med
+			font-size: 22px
+			margin: 0px 0 14px
+
+			&:before
+				margin: 0 10px 0 0
+
+		&:before
+			content: '>'
+			margin: 0 20px 0 0
+		
+	&__desc
+		font-family: var(--menlo)
+		font-size: 16px
+		line-height: 1.4
+		margin: 25px 0 0
+
+		+med
+			font-size: 14px
+			line-height: 1.44
+			margin: 14px 0 0
+
+

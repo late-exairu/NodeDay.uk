@@ -1,0 +1,30 @@
+<section class="team section light" id="speakers">
+	<div class="container">
+		<div class="section__head">
+			<div class="section__head-l">
+				<h2 class="section__title">{{pages[pageKey].pageSections.team.title}}</h2>
+				<p class="section__desc">JavaScript is 1 on demand programming language in the world with 25 millions of developers behind it. Meet the ones who shape out the now and the future of the prospering nation.</p>
+			</div>
+			
+			<div class="section__head-r">
+				<a class="basic-btn">Call for Papers {{mixins.icon('arrow-link')}}</a>
+			</div>
+		</div>
+
+		<div class="team__inner">
+			{% for item in speakers[pageKey] %}
+			<div class="team__item">
+				{{mixins.teammate(item, '', noTracks)}}
+			</div>
+			{% endfor %}
+
+			{% if (pages[pageKey].pageSections.team.cpf) %}
+			<div class="team__item team__item_assign">
+				<p class="team__title">You?</p>
+				<p class="team__desc">CFP is open until  29th February</p>
+				<a class="basic-btn" href="#">Submit proposal {mixins.icon('arrow-link')}}</a>
+			</div>
+			{% endif %}
+		</div>
+	</div>
+</section>

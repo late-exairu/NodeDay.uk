@@ -1,0 +1,195 @@
+.dates
+	position: relative
+	padding: 0
+	max-width: 1062px
+	margin: 0 auto
+	display: flex
+	margin: 0 auto -60px
+	padding: 0 20px
+
+	+lg
+		max-width: 778px
+		padding: 0
+
+	+med
+		padding: 0 16px
+
+	&__content
+		position: relative
+		display: flex
+		justify-content: center
+		margin: 0 auto
+		padding: 0 64px
+		//padding-left: 19px
+		background: var(--clr-white)
+		+lg
+			padding: 0 32px
+		+med
+			flex-direction: column
+			padding: 0 4px
+		+sm
+			display: block
+			padding: 0 4px
+
+		&:after
+			content: ''
+			position: absolute
+			left: 0
+			top: 0
+			bottom: 0
+			width: 4px
+			background: var(--clr-green)
+
+	&__item
+		display: flex
+		position: relative
+		max-width: 258px
+		+sm
+			justify-content: center
+		+med
+			max-width: none
+
+		&:not(:last-child)
+			margin-right: 60px
+
+			+lg
+				margin-right: 30px
+			+med
+				margin: 0 0 30px
+
+			.dates__icon
+				display: flex
+
+	&__icon
+		+fira
+		font-size: 67px
+		display: none
+		position: absolute
+		right: -70px
+		top: 50%
+		color: var(--clr-green)
+		transform: translate(-50%, -50%)
+
+		.icon
+			fill: var(--clr-green)
+
+		+lg
+			right: -55px
+
+		+med
+			position: absolute
+			left: 50%
+			right: auto
+			top: auto
+			bottom: -104px
+
+.date
+	color: #ffffff
+	position: relative
+	display: flex
+	text-decoration: none
+	width: 100%
+
+	&:hover
+		.date__inner
+			&:after
+				background: #efefef
+
+	&__inner
+		display: flex
+		flex-direction: column
+		position: relative
+		z-index: 2
+		background-color: var(--clr-white)
+		padding: 38px 20px 62px
+		width: 258px
+		max-width: 100%
+		background-size: cover
+		transition: all .3s ease
+		transform: translate(0, 0)
+
+		&:after
+			content: ''
+			position: absolute
+			left: 0
+			top: 0
+			right: 0
+			bottom: 0
+			z-index: -1
+			transition: all .3s ease
+
+		+lg
+			width: 218px
+			padding: 20px 20px 38px
+		+r(820)
+			width: 217px
+
+		+med
+			max-width: 600px
+			width: 100%
+			padding: 0 0 0 20px
+
+	&__title
+		+fira
+		color: var(--clr-black)
+		font-size: 24px
+		line-height: 1
+		text-decoration: underline
+		display: block
+		margin: 26px 0 7px
+
+		p
+			margin: 0
+
+		+lg
+			font-size: 20px
+		+med
+			text-align: left
+			font-size: 20px
+
+
+	&__date
+		+fira
+		font-size: 32px
+		letter-spacing: 0.4px
+		color: inherit
+		text-decoration: none
+		margin: 14px 0
+		color: var(--clr-green)
+
+		p
+			margin: 0
+		+lg
+			font-size: 30px
+		+med
+			margin: 0
+		+sm
+			font-size: 28px
+			margin-right: 10px
+			line-height: 1
+	&__info
+		+menlo
+		font-size: 16px
+		line-height: 1.4
+		text-align: left
+		margin: 14px 0 12px
+		padding: 0
+		color: var(--clr-gray)
+		+med
+			font-size: 14px
+			padding: 0 10px 0 0
+			margin: 18px 0 10px
+
+	&__time
+		font-size: 16px
+		line-height: 1.4
+		margin: auto 0 0
+		color: var(--clr-black)
+
+		+med
+			font-size: 15px
+			margin: auto 0 26px
+
+
+
+

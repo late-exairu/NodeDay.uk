@@ -1,0 +1,33 @@
+<section class="event section" id="event">
+	<div class="container">
+		
+		<div class="event__head section__head">
+			<div class="section__head-l">
+				<h2 class="event__title section__title">The Event</h2>
+				<p class="event__desc section__desc">JavaScript is 1 on demand programming language in the world with 25 millions of developers behind it. Meet the ones who shape out the now and the future of the prospering nation.</p>
+			</div>
+			
+			<div class="section__head-r">
+				<div class="event__decor">
+					
+				</div>
+			</div>
+		</div>
+
+		<div class="event__techs">
+			<p class="event__techs-title">First authors and core teams that have joined the lineup:</p>
+
+			<ul class="techs">
+				{% for item in pages.main.pageStatistics.techScope %}
+					{% if item.title %}
+					<li class="techs__item">
+						<div class="techs__img-box"><img class="techs__img" src="{{ item.image }}"/></div>
+						<p class="techs__title">{{ item.title }}</p>
+					</li>
+					{% endif %}
+				{% endfor %}
+			</ul>
+		</div>
+
+	</div>
+</section>

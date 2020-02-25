@@ -10,25 +10,19 @@
       "description": null,
       "seoDescription": "Amsterdam JSNation is a 2-day event focusing exclusively on JavaScript development. At our conference, inspiring talks meet fresh ideas and good people - you’ll hear all you need to know about the latest trends in JS tech, see stellar speakers, meet new friends and colleagues, and connect with key people in the industry. Plus, all of that in one of Europe's top destinations.",
       "key": "main",
-      "titlePage": "Core library authors.<br/> Hands-on learning.<br/> Summer Amsterdam.",
-      "pageSlogan": "JavaScript is #1 on demand programming language in the world with 25 millions of developers behind it. Meet the ones who shape out the now and the future of the prospering nation.",
+      "titlePage": "NodeJS development 18+",
+      "pageSlogan": "JavaScript is 1 on demand programming language in the world with 25 millions of developers behind it. Meet the ones who shape out the now and the future of the prospering nation.",
       "pageStatistics": {
         "hero": [
           {
-            "num": 3,
-            "title": "days",
-            "descr": "Workshops <br/> + Conference"
-          },
-          {
             "num": 2,
             "title": "tracks",
-            "descr": "General<br/> + NodeJS"
+            "descr": "General<br/>Node JS"
           },
           {
-            "num": 1000,
-            "title": "personalities",
-            "descr": "Sharing common<br/> language",
-            "mod": "vent__item_lg"
+            "num": 3,
+            "title": "days",
+            "descr": "Conference<br/>Workshops"
           }
         ],
         "techScope": [
@@ -102,6 +96,16 @@
           }
         ]
       },
+      "locInfo": [
+        {
+          "icon": "calendar",
+          "desc": "17 July, 2020"
+        },
+        {
+          "icon": "location",
+          "desc": "London"
+        }
+      ],
       "themeColor": null,
       "keywords": "javascript, conference, amsterdamjs, jsnation, vuejs, react, angular, frameworks",
       "pageNavigation": {
@@ -158,6 +162,9 @@
         "speakers": {
           "todo": "rename to team",
           "title": "First speakers"
+        },
+        "adviceLounge": {
+          "title": "Advice lounge"
         },
         "team": {
           "title": "First speakers",
@@ -277,8 +284,8 @@
         "mediumUrl": null,
         "ownSite": "https://charliegerard.github.io/",
         "status": "PUBLISHED",
-        "label": null,
-        "isNightSpeaker": null,
+        "label": "Machine Learning",
+        "isNightSpeaker": false,
         "order": 10,
         "avatar": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/0EkXq8vRTK7ZQ4HQFXUQ",
         "bio": "<p>Charlie is a front-end developer at Netlify, a Mozilla Tech Speaker and Google Developer Expert in Web Technologies. She is passionate about creative coding and building interactive prototypes mixing science, art and technology. She also spends time giving back to the community by mentoring new developers, contributing to open-source projects, and speaking at conferences. </p>\n",
@@ -298,7 +305,21 @@
         ],
         "tagBG": "black",
         "color": "white",
-        "activities": {},
+        "activities": {
+          "talks": [
+            {
+              "title": "Acoustic Activity Recognition - Exploring the Hidden Potential of Sound Data in JavaScript",
+              "description": "Even though we don’t really think about it, sound is a very rich source of information.\n\nLeveraging the properties of sound with machine learning, we can gain insights about an environment or an activity performed.\n\nAcoustic activity recognition has the potential to create new interactions and better smart systems, and in this talk, we explore how to experiment with this technology in JavaScript, using the Web audio API and Tensorflow.js. ",
+              "timeString": null,
+              "isLightning": null,
+              "track": {
+                "name": "General",
+                "isPrimary": true
+              },
+              "slug": "acoustic-activity-recognition-exploring-the-hidden-potential-of-sound-data-in-java-script"
+            }
+          ]
+        },
         "slug": "charlie-gerard"
       },
       {
@@ -339,7 +360,10 @@
               "description": "Promise.all is a fantastic utility to wait for a list of promises to complete. Developers around the globe use it daily in Node.js applications to parallelise tasks and reduce latency. Most of the time, it works as expected. Sometimes, it causes so much memory allocation that it slows your process to a crawl or results in an out-of-memory error. Why? Let's dig in together.",
               "timeString": "",
               "isLightning": false,
-              "track": null,
+              "track": {
+                "name": "General",
+                "isPrimary": true
+              },
               "slug": "beware-of-promise-all"
             }
           ]
@@ -384,7 +408,10 @@
               "description": null,
               "timeString": "",
               "isLightning": null,
-              "track": null,
+              "track": {
+                "name": "General",
+                "isPrimary": true
+              },
               "slug": "webpack-5-build-caching-to-cache-or-not-to-cache"
             }
           ]
@@ -440,49 +467,30 @@
         "slug": "mr-doob"
       },
       {
-        "id": "ck38smgd51zks0b32z5nmzg3y",
-        "name": "Mikeal Rogers",
-        "company": "Protocol Labs, USA",
-        "country": "USA",
-        "githubUrl": "https://github.com/mikeal",
-        "twitterUrl": "https://twitter.com/mikeal",
-        "mediumUrl": "https://medium.com/@mikeal",
+        "id": "ck5wcjhfif16l0b753eqy3w9r",
+        "name": " Alan Faubert",
+        "company": "Core member of Svelte, US",
+        "country": "US",
+        "githubUrl": "https://github.com/Conduitry",
+        "twitterUrl": null,
+        "mediumUrl": null,
         "ownSite": null,
         "status": "PUBLISHED",
-        "label": "NodeJS",
-        "isNightSpeaker": null,
+        "label": "Svelte",
+        "isNightSpeaker": false,
         "order": 6,
-        "avatar": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/zXDRIVADSmqdqh9PIRWU",
-        "bio": "<p>Сreator of request and NodeConf. He was a leader in the io.js project and lead the Node.js Foundation through the merger of io.js and Node.js. He now works at Protocol Labs leading the IPLD project.</p>\n",
+        "avatar": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/rBzXz8MRwmFwvCWJjkPD",
+        "bio": "<p>Core member of Svelte since 2017.  These days Alan is mostly a JavaScript programmer, the rest of the time he also enjoys hiking, skiing, and listening to music.</p>\n",
         "socials": [
           {
-            "link": "https://github.com/mikeal",
+            "link": "https://github.com/Conduitry",
             "icon": "gh"
-          },
-          {
-            "link": "https://twitter.com/mikeal",
-            "icon": "tw"
-          },
-          {
-            "link": "https://medium.com/@mikeal",
-            "icon": "med"
           }
         ],
-        "tagBG": "#7AB464",
+        "tagBG": "#ff5200",
         "color": "#fff",
-        "activities": {
-          "talks": [
-            {
-              "title": "Decentralized Universal JavaScript",
-              "description": "Dive into the world of decentralized data structures and learn how these open up new paths to JavaScript that can run anywhere, from anywhere, without a compiler.",
-              "timeString": null,
-              "isLightning": null,
-              "track": null,
-              "slug": "decentralized-universal-java-script"
-            }
-          ]
-        },
-        "slug": "mikeal-rogers"
+        "activities": {},
+        "slug": "alan-faubert"
       },
       {
         "id": "ck2wz494viqmx0b73yobzoe5w",
@@ -494,7 +502,7 @@
         "mediumUrl": "",
         "ownSite": "https://sarah.dev/",
         "status": "PUBLISHED",
-        "label": "Ecosystem",
+        "label": "Vue.js",
         "isNightSpeaker": null,
         "order": 5,
         "avatar": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/S46QV4WvTlefyYEg3I0I",
@@ -513,8 +521,8 @@
             "icon": "site"
           }
         ],
-        "tagBG": "#fff40d",
-        "color": "#ae4f01",
+        "tagBG": "black",
+        "color": "white",
         "activities": {
           "talks": [
             {
@@ -566,7 +574,10 @@
               "description": "There are stats coming out that in 2020 about 50% of all JavaScript projects using npm will be using TypeScript, how did this come to be and what systems are in place to keep the TypeScript team in Microsoft from trying to extinguish JavaScript?",
               "timeString": null,
               "isLightning": null,
-              "track": null,
+              "track": {
+                "name": "General",
+                "isPrimary": true
+              },
               "slug": "how-type-script-embraces-and-extends-java-script"
             }
           ]
@@ -607,7 +618,10 @@
               "description": "TypeScript continues its growth journey and is slowly taking over JavaScript world. Types inference, powerful expressivity, strict compile-time checks, all these features make building complex JavaScript apps a breeze. In this session, you will see how TypeScript’s hidden features helped us to build NestJS, the fastest growing Node.js technology in 2019.",
               "timeString": "",
               "isLightning": null,
-              "track": null,
+              "track": {
+                "name": "General",
+                "isPrimary": true
+              },
               "slug": "unlocking-new-capabilities-for-node-js-with-type-script-and-nest-js"
             }
           ]
@@ -652,7 +666,10 @@
               "description": "Live-coded audiovisual presentation that will delve into musical notation and visual scores as a  language for human-computer improvisation. What does it mean when an instruction is open-ended rather than precise? How can algorithmic uncertainty open up creative possibilities to improvise using code? Olivia will use javascript to explore a live relationship between code, image, and sound as intertwined creative languages.",
               "timeString": null,
               "isLightning": null,
-              "track": null,
+              "track": {
+                "name": "General",
+                "isPrimary": true
+              },
               "slug": "code-notation-score"
             }
           ]
@@ -697,7 +714,10 @@
               "description": "After years of hard work from the Modules Team, ESM is shipping in Node.js. In this talk we'll go over the distinct patterns you'll want to use when adopting ESM as a first-class module system in Node.js.",
               "timeString": null,
               "isLightning": false,
-              "track": null,
+              "track": {
+                "name": "General",
+                "isPrimary": true
+              },
               "slug": "import-modules-as-esm-from-nodejs"
             }
           ]
@@ -705,30 +725,52 @@
         "slug": "tierney-cyren"
       },
       {
-        "id": "ck5wcjhfif16l0b753eqy3w9r",
-        "name": " Alan Faubert",
-        "company": "Core member of Svelte, US",
-        "country": "US",
-        "githubUrl": "https://github.com/Conduitry",
-        "twitterUrl": null,
-        "mediumUrl": null,
+        "id": "ck38smgd51zks0b32z5nmzg3y",
+        "name": "Mikeal Rogers",
+        "company": "Protocol Labs, USA",
+        "country": "USA",
+        "githubUrl": "https://github.com/mikeal",
+        "twitterUrl": "https://twitter.com/mikeal",
+        "mediumUrl": "https://medium.com/@mikeal",
         "ownSite": null,
         "status": "PUBLISHED",
-        "label": "Svelte",
+        "label": "NodeJS",
         "isNightSpeaker": null,
-        "order": null,
-        "avatar": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/rBzXz8MRwmFwvCWJjkPD",
-        "bio": "<p>Core member of Svelte since 2017.  These days Alan is mostly a JavaScript programmer, the rest of the time he also enjoys hiking, skiing, and listening to music.</p>\n",
+        "order": -1,
+        "avatar": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/zXDRIVADSmqdqh9PIRWU",
+        "bio": "<p>Сreator of request and NodeConf. He was a leader in the io.js project and lead the Node.js Foundation through the merger of io.js and Node.js. He now works at Protocol Labs leading the IPLD project.</p>\n",
         "socials": [
           {
-            "link": "https://github.com/Conduitry",
+            "link": "https://github.com/mikeal",
             "icon": "gh"
+          },
+          {
+            "link": "https://twitter.com/mikeal",
+            "icon": "tw"
+          },
+          {
+            "link": "https://medium.com/@mikeal",
+            "icon": "med"
           }
         ],
-        "tagBG": "#ff5200",
+        "tagBG": "#7AB464",
         "color": "#fff",
-        "activities": {},
-        "slug": "alan-faubert"
+        "activities": {
+          "talks": [
+            {
+              "title": "Decentralized Universal JavaScript",
+              "description": "Dive into the world of decentralized data structures and learn how these open up new paths to JavaScript that can run anywhere, from anywhere, without a compiler.",
+              "timeString": null,
+              "isLightning": null,
+              "track": {
+                "name": "General",
+                "isPrimary": true
+              },
+              "slug": "decentralized-universal-java-script"
+            }
+          ]
+        },
+        "slug": "mikeal-rogers"
       },
       {
         "id": "ck6ap7ezvpr6n0b753q2nkyfv",
@@ -757,8 +799,66 @@
         ],
         "tagBG": "#d400fa",
         "color": "#fff",
-        "activities": {},
+        "activities": {
+          "talks": [
+            {
+              "title": "PWA – Hidden Stories About Future",
+              "description": "This talk is about the adoption of PWA, how they can solve important use cases in the web industry. Deep technical travel by all the tricks and features that can improve Engagement, Performance, Resilience to make the future of the web apps better. The talk will include all new upcoming cross-platform features to improve PWA's, Project FUGU, WASM, etc.",
+              "timeString": null,
+              "isLightning": null,
+              "track": {
+                "name": "General",
+                "isPrimary": true
+              },
+              "slug": "pwa-hidden-stories-about-future"
+            }
+          ]
+        },
         "slug": "romulo-cintra"
+      },
+      {
+        "id": "ck6jfkxagmplp0b75pvfyqa9c",
+        "name": "Bert Belder",
+        "company": "deno.land, Netherlands",
+        "country": "Netherlands",
+        "githubUrl": "https://github.com/piscisaureus",
+        "twitterUrl": "https://twitter.com/piscisaureus",
+        "mediumUrl": null,
+        "ownSite": null,
+        "status": "PUBLISHED",
+        "label": "Deno",
+        "isNightSpeaker": null,
+        "order": null,
+        "avatar": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/CtnTvLD4Qx2gMdKztyCf",
+        "bio": "<p>Bert was an early <a href=\"https://nodejs.org/en/\">Node.js</a> core team member, mainly responsible for creating the platform abstraction layer (<a href=\"https://github.com/libuv/libuv\">libuv</a>). In 2013 he co-founded <a href=\"https://strongloop.com/\">StrongLoop</a>, which created the open-source API framework LoopBack. Last year he started working on <a href=\"https://github.com/denoland/deno\">Deno</a>, the new way to do server-side JavaScript, together with <a href=\"https://github.com/ry\">Ryan Dahl</a>. </p>\n",
+        "socials": [
+          {
+            "link": "https://github.com/piscisaureus",
+            "icon": "gh"
+          },
+          {
+            "link": "https://twitter.com/piscisaureus",
+            "icon": "tw"
+          }
+        ],
+        "tagBG": "black",
+        "color": "white",
+        "activities": {
+          "talks": [
+            {
+              "title": "Deno – the Most Recent Developments on NodeJS Alternative",
+              "description": "Things are changing fast in deno land – final topic details will be published in May.",
+              "timeString": null,
+              "isLightning": null,
+              "track": {
+                "name": "General",
+                "isPrimary": true
+              },
+              "slug": "deno-the-most-recent-developments-on-node-js-alternative"
+            }
+          ]
+        },
+        "slug": "bert-belder"
       }
     ],
     "performanceTeam": [
@@ -889,6 +989,93 @@
         }
       },
       {
+        "id": "ck10teywmv6940b541heiz22b",
+        "name": "Alex Lobera",
+        "company": "React GraphQL Academy, UK",
+        "country": "UK",
+        "githubUrl": "https://github.com/alexlbr",
+        "twitterUrl": "https://twitter.com/alex_lobera",
+        "mediumUrl": null,
+        "ownSite": null,
+        "talks": [],
+        "workshops": [],
+        "workshopsActivity": [
+          {
+            "title": "GraphQL API – From Zero to Production",
+            "slug": "graph-ql-api-from-zero-to-production"
+          }
+        ],
+        "slug": "alex-lobera",
+        "avatar": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/jx66c2DKQ3KhZSOiLxXS",
+        "bio": "<p>Founder at React GraphQL Academy and LeanJS. Developer and Coach passionate about JavaScript, React and GraphQL. Organizer of the JavaScript London Meetup and other popular meetups in the EU.</p>\n",
+        "socials": [
+          {
+            "link": "https://github.com/alexlbr",
+            "icon": "gh"
+          },
+          {
+            "link": "https://twitter.com/alex_lobera",
+            "icon": "tw"
+          }
+        ],
+        "activities": {
+          "workshops": [
+            {
+              "title": "GraphQL API – From Zero to Production",
+              "slug": "graph-ql-api-from-zero-to-production"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ck10t71go59pg0b71iw2zrad5",
+        "name": "Kitze",
+        "company": "React Academy, Poland",
+        "country": "Poland",
+        "githubUrl": "https://github.com/kitze",
+        "twitterUrl": "https://twitter.com/thekitze",
+        "mediumUrl": null,
+        "ownSite": null,
+        "talks": [],
+        "workshops": [
+          {
+            "title": "React Advanced",
+            "slug": "react-advanced"
+          }
+        ],
+        "workshopsActivity": [
+          {
+            "title": "React Advanced",
+            "slug": "react-advanced"
+          }
+        ],
+        "slug": "kitze",
+        "avatar": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/sDbtalRTKQ7lQXzPARHp",
+        "bio": "<p>Kitze founded <a href=\"https://reactacademy.io/\">React Academy</a> to teach React and GraphQL around the world. He's the maker of <a href=\"https://sizzy.co/\">Sizzy</a> - the browser for designers and developers. He's documenting his journey <a href=\"https://youtube.com/kitze\">on YouTube</a>. He made products like <a href=\"https://github.com/kitze/JSUI\">JSUI</a>, <a href=\"https://twizzy.app/\">Twizzy</a>, <a href=\"https://luckyretweet.co/\">Lucky Retweet</a>, <a href=\"https://ok-google.io/\">OK Google</a>, etc.</p>\n",
+        "socials": [
+          {
+            "link": "https://github.com/kitze",
+            "icon": "gh"
+          },
+          {
+            "link": "https://twitter.com/thekitze",
+            "icon": "tw"
+          }
+        ],
+        "activities": {
+          "workshops": [
+            {
+              "title": "React Advanced",
+              "slug": "react-advanced"
+            },
+            {
+              "title": "React Advanced",
+              "slug": "react-advanced"
+            }
+          ]
+        }
+      },
+      {
         "id": "ck38s6qxa28h90b66plt7e737",
         "name": "Matteo Collina",
         "company": "NearForm, Italy",
@@ -903,7 +1090,10 @@
             "description": "Promise.all is a fantastic utility to wait for a list of promises to complete. Developers around the globe use it daily in Node.js applications to parallelise tasks and reduce latency. Most of the time, it works as expected. Sometimes, it causes so much memory allocation that it slows your process to a crawl or results in an out-of-memory error. Why? Let's dig in together.",
             "timeString": "",
             "isLightning": false,
-            "track": null
+            "track": {
+              "name": "General",
+              "isPrimary": true
+            }
           }
         ],
         "workshops": [],
@@ -993,7 +1183,7 @@
         "company": "ING, Netherlands",
         "country": "Netherlands",
         "githubUrl": "https://github.com/shershen08",
-        "twitterUrl": null,
+        "twitterUrl": "https://twitter.com/legkoletat",
         "mediumUrl": null,
         "ownSite": null,
         "talks": [],
@@ -1011,6 +1201,10 @@
           {
             "link": "https://github.com/shershen08",
             "icon": "gh"
+          },
+          {
+            "link": "https://twitter.com/legkoletat",
+            "icon": "tw"
           }
         ],
         "activities": {
@@ -1028,7 +1222,7 @@
         "company": "Software Engineer, Netherlands",
         "country": "Netherlands",
         "githubUrl": "https://github.com/korzio",
-        "twitterUrl": null,
+        "twitterUrl": "https://twitter.com/AlexKorzhikov",
         "mediumUrl": null,
         "ownSite": null,
         "talks": [],
@@ -1046,6 +1240,10 @@
           {
             "link": "https://github.com/korzio",
             "icon": "gh"
+          },
+          {
+            "link": "https://twitter.com/AlexKorzhikov",
+            "icon": "tw"
           }
         ],
         "activities": {
@@ -1072,7 +1270,10 @@
             "description": "Live-coded audiovisual presentation that will delve into musical notation and visual scores as a  language for human-computer improvisation. What does it mean when an instruction is open-ended rather than precise? How can algorithmic uncertainty open up creative possibilities to improvise using code? Olivia will use javascript to explore a live relationship between code, image, and sound as intertwined creative languages.",
             "timeString": null,
             "isLightning": null,
-            "track": null
+            "track": {
+              "name": "General",
+              "isPrimary": true
+            }
           }
         ],
         "workshops": [],
@@ -1104,6 +1305,41 @@
             {
               "title": "Live coding visuals with Hydra (3h Workshop)",
               "slug": "live-coding-visuals-with-hydra-3h-workshop"
+            }
+          ]
+        }
+      },
+      {
+        "id": "ck6hmpiyxqtyg0b20nti06hgg",
+        "name": "Markus Leutwyler",
+        "company": "Nodebots Switzerland, Switzerland",
+        "country": "Switzerland",
+        "githubUrl": null,
+        "twitterUrl": null,
+        "mediumUrl": null,
+        "ownSite": "http://nodebots.ch/",
+        "talks": [],
+        "workshops": [],
+        "workshopsActivity": [
+          {
+            "title": "Robotics (3h Workshop)",
+            "slug": "robotics-3h-workshop"
+          }
+        ],
+        "slug": "markus-leutwyler",
+        "avatar": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/l1e2ctw5TBqM5qemVHcS",
+        "bio": "<p>Markus works as the CEO and CTO of make.human.technology, where his focus is to make and keep technology human friendly. In his spare time, he likes to tinker with hardware, electronics and robots and thus this was how nodebots was born, at the intersection of the web and hardware.</p>\n",
+        "socials": [
+          {
+            "link": "http://nodebots.ch/",
+            "icon": "site"
+          }
+        ],
+        "activities": {
+          "workshops": [
+            {
+              "title": "Robotics (3h Workshop)",
+              "slug": "robotics-3h-workshop"
             }
           ]
         }
@@ -1209,16 +1445,16 @@
         "name": "Kanstantsin Klimashevich",
         "company": "Xebia, Netherlands",
         "country": "Netherlands",
-        "githubUrl": "https://github.com/mrkosima?tab=stars",
+        "githubUrl": "https://github.com/mrkosima",
         "twitterUrl": null,
         "mediumUrl": null,
         "ownSite": null,
         "decor": true,
         "avatar": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/VttgCnjTkanMOLw0OSJJ",
-        "bio": "<p>Kanstantsin is a Software Developer Consultant in Xebia. He is passionate about running, racing cars and JavaScript.</p>\n",
+        "bio": "<p>Kanstantsin is a Software Developer Consultant at Xebia. He is passionate about running, racing cars and JavaScript.</p>\n",
         "socials": [
           {
-            "link": "https://github.com/mrkosima?tab=stars",
+            "link": "https://github.com/mrkosima",
             "icon": "gh"
           }
         ],
@@ -1252,17 +1488,29 @@
       }
     ]
   },
-  "speakersBtn": "Join our speakers team!?...",
+  "speakersBtn": "CALL FOR SPEAKERS",
   "sponsors": [
+    {
+      "title": "Platinum",
+      "list": [
+        {
+          "category": "Platinum",
+          "alt": "Rangle",
+          "img": "https://media.graphcms.com/dxo5KUcaQUG76SxlCW3k",
+          "link": "https://rangle.io",
+          "width": null
+        }
+      ]
+    },
     {
       "title": "Gold",
       "mod": "logos_md",
       "list": [
         {
           "category": "Gold",
-          "alt": "Amazon Web Service",
-          "img": "https://media.graphcms.com/6KScm7b5Qjmm4Q4V2RM0",
-          "link": "https://aws.amazon.com/",
+          "alt": "AWS Amplify",
+          "img": "https://media.graphcms.com/I9ltQ0oGTGaZTLS80b1h",
+          "link": "https://aws-amplify.github.io/",
           "width": 300
         },
         {
@@ -1300,10 +1548,10 @@
       "list": [
         {
           "category": "Partner",
-          "alt": "wwcode-vancouver",
-          "img": "https://media.graphcms.com/ZqdXyujWTbW87j3pNrPx",
-          "link": "https://www.womenwhocode.com/vancouver",
-          "width": 150
+          "alt": "rsconf",
+          "img": "https://media.graphcms.com/cQWzZoDsQqOuujSQHQ7b",
+          "link": "https://rsconf.by",
+          "width": 100
         },
         {
           "category": "Partner",
@@ -1391,16 +1639,16 @@
         },
         {
           "category": "Partner",
-          "alt": "UtrechtJUG",
-          "img": "https://media.graphcms.com/dyJ3m0rcRgWNXNYUnqdY",
-          "link": "https://www.meetup.com/Utrecht-Java-User-Group/",
-          "width": 100
+          "alt": "wwcode-vancouver",
+          "img": "https://media.graphcms.com/ZqdXyujWTbW87j3pNrPx",
+          "link": "https://www.womenwhocode.com/vancouver",
+          "width": 150
         },
         {
           "category": "Partner",
-          "alt": "rsconf",
-          "img": "https://media.graphcms.com/cQWzZoDsQqOuujSQHQ7b",
-          "link": "https://rsconf.by",
+          "alt": "UtrechtJUG",
+          "img": "https://media.graphcms.com/dyJ3m0rcRgWNXNYUnqdY",
+          "link": "https://www.meetup.com/Utrecht-Java-User-Group/",
           "width": 100
         },
         {
@@ -1479,6 +1727,20 @@
           "img": "https://media.graphcms.com/4NezSgfrQdO2NTbE1SWu",
           "link": "https://tproger.ru/",
           "width": 100
+        },
+        {
+          "category": "Partner",
+          "alt": "StickerMule",
+          "img": "https://media.graphcms.com/yXFWWrs7Qb2vKxOXNFJ3",
+          "link": "http://stickermule.com/supports/gitnation20-sponsorship",
+          "width": 100
+        },
+        {
+          "category": "Partner",
+          "alt": "Amsterdam-SvelteJS",
+          "img": "https://media.graphcms.com/5cLDuKRmCoDavVTNanng",
+          "link": "https://www.meetup.com/Amsterdam-SvelteJS/",
+          "width": 100
         }
       ]
     }
@@ -1502,14 +1764,14 @@
           "speakerSlug": "sarah-drasner",
           "speaker": "Sarah Drasner",
           "from": "Netlify, USA",
-          "label": "Ecosystem"
+          "label": "Vue.js"
         },
         {
           "title": "Webpack 5 Build Caching. \"To cache or not to cache\"",
           "text": null,
           "description": null,
           "time": null,
-          "track": null,
+          "track": "General",
           "name": "Tobias Koppers",
           "place": "Webpack, Germany",
           "slug": "webpack-5-build-caching-to-cache-or-not-to-cache",
@@ -1523,7 +1785,7 @@
           "text": "TypeScript continues its growth journey and is slowly taking over JavaScript world. Types inference, powerful expressivity, strict compile-time checks, all these features make building complex JavaScript apps a breeze. In this session, you will see how TypeScript’s hidden features helped us to build NestJS, the fastest growing Node.js technology in 2019.",
           "description": "TypeScript continues its growth journey and is slowly taking over JavaScript world. Types inference, powerful expressivity, strict compile-time checks, all these features make building complex JavaScript apps a breeze. In this session, you will see how TypeScript’s hidden features helped us to build NestJS, the fastest growing Node.js technology in 2019.",
           "time": null,
-          "track": null,
+          "track": "General",
           "name": "Kamil Mysliwiec",
           "place": "NestJS | Trilon.io, Poland",
           "slug": "unlocking-new-capabilities-for-node-js-with-type-script-and-nest-js",
@@ -1537,7 +1799,7 @@
           "text": "Promise.all is a fantastic utility to wait for a list of promises to complete. Developers around the globe use it daily in Node.js applications to parallelise tasks and reduce latency. Most of the time, it works as expected. Sometimes, it causes so much memory allocation that it slows your process to a crawl or results in an out-of-memory error. Why? Let's dig in together.",
           "description": "Promise.all is a fantastic utility to wait for a list of promises to complete. Developers around the globe use it daily in Node.js applications to parallelise tasks and reduce latency. Most of the time, it works as expected. Sometimes, it causes so much memory allocation that it slows your process to a crawl or results in an out-of-memory error. Why? Let's dig in together.",
           "time": null,
-          "track": null,
+          "track": "General",
           "name": "Matteo Collina",
           "place": "NearForm, Italy",
           "slug": "beware-of-promise-all",
@@ -1565,7 +1827,7 @@
           "text": "There are stats coming out that in 2020 about 50% of all JavaScript projects using npm will be using TypeScript, how did this come to be and what systems are in place to keep the TypeScript team in Microsoft from trying to extinguish JavaScript?",
           "description": "There are stats coming out that in 2020 about 50% of all JavaScript projects using npm will be using TypeScript, how did this come to be and what systems are in place to keep the TypeScript team in Microsoft from trying to extinguish JavaScript?",
           "time": null,
-          "track": null,
+          "track": "General",
           "name": "Orta Therox",
           "place": "Microsoft, USA",
           "slug": "how-type-script-embraces-and-extends-java-script",
@@ -1579,7 +1841,7 @@
           "text": "After years of hard work from the Modules Team, ESM is shipping in Node.js. In this talk we'll go over the distinct patterns you'll want to use when adopting ESM as a first-class module system in Node.js.",
           "description": "After years of hard work from the Modules Team, ESM is shipping in Node.js. In this talk we'll go over the distinct patterns you'll want to use when adopting ESM as a first-class module system in Node.js.",
           "time": null,
-          "track": null,
+          "track": "General",
           "name": "Tierney Cyren",
           "place": "Microsoft, USA",
           "slug": "import-modules-as-esm-from-nodejs",
@@ -1593,7 +1855,7 @@
           "text": "Dive into the world of decentralized data structures and learn how these open up new paths to JavaScript that can run anywhere, from anywhere, without a compiler.",
           "description": "Dive into the world of decentralized data structures and learn how these open up new paths to JavaScript that can run anywhere, from anywhere, without a compiler.",
           "time": null,
-          "track": null,
+          "track": "General",
           "name": "Mikeal Rogers",
           "place": "Protocol Labs, USA",
           "slug": "decentralized-universal-java-script",
@@ -1607,7 +1869,7 @@
           "text": "Live-coded audiovisual presentation that will delve into musical notation and visual scores as a  language for human-computer improvisation. What does it mean when an instruction is open-ended rather than precise? How can algorithmic uncertainty open up creative possibilities to improvise using code? Olivia will use javascript to explore a live relationship between code, image, and sound as intertwined creative languages.",
           "description": "Live-coded audiovisual presentation that will delve into musical notation and visual scores as a  language for human-computer improvisation. What does it mean when an instruction is open-ended rather than precise? How can algorithmic uncertainty open up creative possibilities to improvise using code? Olivia will use javascript to explore a live relationship between code, image, and sound as intertwined creative languages.",
           "time": null,
-          "track": null,
+          "track": "General",
           "name": "Olivia Jack",
           "place": "Hydra, Colombia",
           "slug": "code-notation-score",
@@ -1615,6 +1877,48 @@
           "speaker": "Olivia Jack",
           "from": "Hydra, Colombia",
           "label": "WebGL"
+        },
+        {
+          "title": "PWA – Hidden Stories About Future",
+          "text": "This talk is about the adoption of PWA, how they can solve important use cases in the web industry. Deep technical travel by all the tricks and features that can improve Engagement, Performance, Resilience to make the future of the web apps better. The talk will include all new upcoming cross-platform features to improve PWA's, Project FUGU, WASM, etc.",
+          "description": "This talk is about the adoption of PWA, how they can solve important use cases in the web industry. Deep technical travel by all the tricks and features that can improve Engagement, Performance, Resilience to make the future of the web apps better. The talk will include all new upcoming cross-platform features to improve PWA's, Project FUGU, WASM, etc.",
+          "time": null,
+          "track": "General",
+          "name": "Romulo Cintra",
+          "place": "Caixabank, Spain",
+          "slug": "pwa-hidden-stories-about-future",
+          "speakerSlug": "romulo-cintra",
+          "speaker": "Romulo Cintra",
+          "from": "Caixabank, Spain",
+          "label": "PWA"
+        },
+        {
+          "title": "Deno – the Most Recent Developments on NodeJS Alternative",
+          "text": "Things are changing fast in deno land – final topic details will be published in May.",
+          "description": "Things are changing fast in deno land – final topic details will be published in May.",
+          "time": null,
+          "track": "General",
+          "name": "Bert Belder",
+          "place": "deno.land, Netherlands",
+          "slug": "deno-the-most-recent-developments-on-node-js-alternative",
+          "speakerSlug": "bert-belder",
+          "speaker": "Bert Belder",
+          "from": "deno.land, Netherlands",
+          "label": "Deno"
+        },
+        {
+          "title": "Acoustic Activity Recognition - Exploring the Hidden Potential of Sound Data in JavaScript",
+          "text": "Even though we don’t really think about it, sound is a very rich source of information.\n\nLeveraging the properties of sound with machine learning, we can gain insights about an environment or an activity performed.\n\nAcoustic activity recognition has the potential to create new interactions and better smart systems, and in this talk, we explore how to experiment with this technology in JavaScript, using the Web audio API and Tensorflow.js. ",
+          "description": "Even though we don’t really think about it, sound is a very rich source of information.\n\nLeveraging the properties of sound with machine learning, we can gain insights about an environment or an activity performed.\n\nAcoustic activity recognition has the potential to create new interactions and better smart systems, and in this talk, we explore how to experiment with this technology in JavaScript, using the Web audio API and Tensorflow.js. ",
+          "time": null,
+          "track": "General",
+          "name": "Charlie Gerard",
+          "place": "Netlify, Netherlands",
+          "slug": "acoustic-activity-recognition-exploring-the-hidden-potential-of-sound-data-in-java-script",
+          "speakerSlug": "charlie-gerard",
+          "speaker": "Charlie Gerard",
+          "from": "Netlify, Netherlands",
+          "label": "Machine Learning"
         }
       ],
       "active": true
@@ -1636,14 +1940,14 @@
       "speakerSlug": "sarah-drasner",
       "speaker": "Sarah Drasner",
       "from": "Netlify, USA",
-      "label": "Ecosystem"
+      "label": "Vue.js"
     },
     {
       "title": "Webpack 5 Build Caching. \"To cache or not to cache\"",
       "text": null,
       "description": null,
       "time": "",
-      "track": null,
+      "track": "General",
       "name": "Tobias Koppers",
       "place": "Webpack, Germany",
       "slug": "webpack-5-build-caching-to-cache-or-not-to-cache",
@@ -1657,7 +1961,7 @@
       "text": "TypeScript continues its growth journey and is slowly taking over JavaScript world. Types inference, powerful expressivity, strict compile-time checks, all these features make building complex JavaScript apps a breeze. In this session, you will see how TypeScript’s hidden features helped us to build NestJS, the fastest growing Node.js technology in 2019.",
       "description": "TypeScript continues its growth journey and is slowly taking over JavaScript world. Types inference, powerful expressivity, strict compile-time checks, all these features make building complex JavaScript apps a breeze. In this session, you will see how TypeScript’s hidden features helped us to build NestJS, the fastest growing Node.js technology in 2019.",
       "time": "",
-      "track": null,
+      "track": "General",
       "name": "Kamil Mysliwiec",
       "place": "NestJS | Trilon.io, Poland",
       "slug": "unlocking-new-capabilities-for-node-js-with-type-script-and-nest-js",
@@ -1671,7 +1975,7 @@
       "text": "Promise.all is a fantastic utility to wait for a list of promises to complete. Developers around the globe use it daily in Node.js applications to parallelise tasks and reduce latency. Most of the time, it works as expected. Sometimes, it causes so much memory allocation that it slows your process to a crawl or results in an out-of-memory error. Why? Let's dig in together.",
       "description": "Promise.all is a fantastic utility to wait for a list of promises to complete. Developers around the globe use it daily in Node.js applications to parallelise tasks and reduce latency. Most of the time, it works as expected. Sometimes, it causes so much memory allocation that it slows your process to a crawl or results in an out-of-memory error. Why? Let's dig in together.",
       "time": "",
-      "track": null,
+      "track": "General",
       "name": "Matteo Collina",
       "place": "NearForm, Italy",
       "slug": "beware-of-promise-all",
@@ -1699,7 +2003,7 @@
       "text": "There are stats coming out that in 2020 about 50% of all JavaScript projects using npm will be using TypeScript, how did this come to be and what systems are in place to keep the TypeScript team in Microsoft from trying to extinguish JavaScript?",
       "description": "There are stats coming out that in 2020 about 50% of all JavaScript projects using npm will be using TypeScript, how did this come to be and what systems are in place to keep the TypeScript team in Microsoft from trying to extinguish JavaScript?",
       "time": null,
-      "track": null,
+      "track": "General",
       "name": "Orta Therox",
       "place": "Microsoft, USA",
       "slug": "how-type-script-embraces-and-extends-java-script",
@@ -1713,7 +2017,7 @@
       "text": "After years of hard work from the Modules Team, ESM is shipping in Node.js. In this talk we'll go over the distinct patterns you'll want to use when adopting ESM as a first-class module system in Node.js.",
       "description": "After years of hard work from the Modules Team, ESM is shipping in Node.js. In this talk we'll go over the distinct patterns you'll want to use when adopting ESM as a first-class module system in Node.js.",
       "time": null,
-      "track": null,
+      "track": "General",
       "name": "Tierney Cyren",
       "place": "Microsoft, USA",
       "slug": "import-modules-as-esm-from-nodejs",
@@ -1727,7 +2031,7 @@
       "text": "Dive into the world of decentralized data structures and learn how these open up new paths to JavaScript that can run anywhere, from anywhere, without a compiler.",
       "description": "Dive into the world of decentralized data structures and learn how these open up new paths to JavaScript that can run anywhere, from anywhere, without a compiler.",
       "time": null,
-      "track": null,
+      "track": "General",
       "name": "Mikeal Rogers",
       "place": "Protocol Labs, USA",
       "slug": "decentralized-universal-java-script",
@@ -1741,7 +2045,7 @@
       "text": "Live-coded audiovisual presentation that will delve into musical notation and visual scores as a  language for human-computer improvisation. What does it mean when an instruction is open-ended rather than precise? How can algorithmic uncertainty open up creative possibilities to improvise using code? Olivia will use javascript to explore a live relationship between code, image, and sound as intertwined creative languages.",
       "description": "Live-coded audiovisual presentation that will delve into musical notation and visual scores as a  language for human-computer improvisation. What does it mean when an instruction is open-ended rather than precise? How can algorithmic uncertainty open up creative possibilities to improvise using code? Olivia will use javascript to explore a live relationship between code, image, and sound as intertwined creative languages.",
       "time": null,
-      "track": null,
+      "track": "General",
       "name": "Olivia Jack",
       "place": "Hydra, Colombia",
       "slug": "code-notation-score",
@@ -1749,6 +2053,48 @@
       "speaker": "Olivia Jack",
       "from": "Hydra, Colombia",
       "label": "WebGL"
+    },
+    {
+      "title": "PWA – Hidden Stories About Future",
+      "text": "This talk is about the adoption of PWA, how they can solve important use cases in the web industry. Deep technical travel by all the tricks and features that can improve Engagement, Performance, Resilience to make the future of the web apps better. The talk will include all new upcoming cross-platform features to improve PWA's, Project FUGU, WASM, etc.",
+      "description": "This talk is about the adoption of PWA, how they can solve important use cases in the web industry. Deep technical travel by all the tricks and features that can improve Engagement, Performance, Resilience to make the future of the web apps better. The talk will include all new upcoming cross-platform features to improve PWA's, Project FUGU, WASM, etc.",
+      "time": null,
+      "track": "General",
+      "name": "Romulo Cintra",
+      "place": "Caixabank, Spain",
+      "slug": "pwa-hidden-stories-about-future",
+      "speakerSlug": "romulo-cintra",
+      "speaker": "Romulo Cintra",
+      "from": "Caixabank, Spain",
+      "label": "PWA"
+    },
+    {
+      "title": "Deno – the Most Recent Developments on NodeJS Alternative",
+      "text": "Things are changing fast in deno land – final topic details will be published in May.",
+      "description": "Things are changing fast in deno land – final topic details will be published in May.",
+      "time": null,
+      "track": "General",
+      "name": "Bert Belder",
+      "place": "deno.land, Netherlands",
+      "slug": "deno-the-most-recent-developments-on-node-js-alternative",
+      "speakerSlug": "bert-belder",
+      "speaker": "Bert Belder",
+      "from": "deno.land, Netherlands",
+      "label": "Deno"
+    },
+    {
+      "title": "Acoustic Activity Recognition - Exploring the Hidden Potential of Sound Data in JavaScript",
+      "text": "Even though we don’t really think about it, sound is a very rich source of information.\n\nLeveraging the properties of sound with machine learning, we can gain insights about an environment or an activity performed.\n\nAcoustic activity recognition has the potential to create new interactions and better smart systems, and in this talk, we explore how to experiment with this technology in JavaScript, using the Web audio API and Tensorflow.js. ",
+      "description": "Even though we don’t really think about it, sound is a very rich source of information.\n\nLeveraging the properties of sound with machine learning, we can gain insights about an environment or an activity performed.\n\nAcoustic activity recognition has the potential to create new interactions and better smart systems, and in this talk, we explore how to experiment with this technology in JavaScript, using the Web audio API and Tensorflow.js. ",
+      "time": null,
+      "track": "General",
+      "name": "Charlie Gerard",
+      "place": "Netlify, Netherlands",
+      "slug": "acoustic-activity-recognition-exploring-the-hidden-potential-of-sound-data-in-java-script",
+      "speakerSlug": "charlie-gerard",
+      "speaker": "Charlie Gerard",
+      "from": "Netlify, Netherlands",
+      "label": "Machine Learning"
     }
   ],
   "trainers": [
@@ -1831,6 +2177,93 @@
       }
     },
     {
+      "id": "ck10teywmv6940b541heiz22b",
+      "name": "Alex Lobera",
+      "company": "React GraphQL Academy, UK",
+      "country": "UK",
+      "githubUrl": "https://github.com/alexlbr",
+      "twitterUrl": "https://twitter.com/alex_lobera",
+      "mediumUrl": null,
+      "ownSite": null,
+      "talks": [],
+      "workshops": [],
+      "workshopsActivity": [
+        {
+          "title": "GraphQL API – From Zero to Production",
+          "slug": "graph-ql-api-from-zero-to-production"
+        }
+      ],
+      "slug": "alex-lobera",
+      "avatar": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/jx66c2DKQ3KhZSOiLxXS",
+      "bio": "<p>Founder at React GraphQL Academy and LeanJS. Developer and Coach passionate about JavaScript, React and GraphQL. Organizer of the JavaScript London Meetup and other popular meetups in the EU.</p>\n",
+      "socials": [
+        {
+          "link": "https://github.com/alexlbr",
+          "icon": "gh"
+        },
+        {
+          "link": "https://twitter.com/alex_lobera",
+          "icon": "tw"
+        }
+      ],
+      "activities": {
+        "workshops": [
+          {
+            "title": "GraphQL API – From Zero to Production",
+            "slug": "graph-ql-api-from-zero-to-production"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ck10t71go59pg0b71iw2zrad5",
+      "name": "Kitze",
+      "company": "React Academy, Poland",
+      "country": "Poland",
+      "githubUrl": "https://github.com/kitze",
+      "twitterUrl": "https://twitter.com/thekitze",
+      "mediumUrl": null,
+      "ownSite": null,
+      "talks": [],
+      "workshops": [
+        {
+          "title": "React Advanced",
+          "slug": "react-advanced"
+        }
+      ],
+      "workshopsActivity": [
+        {
+          "title": "React Advanced",
+          "slug": "react-advanced"
+        }
+      ],
+      "slug": "kitze",
+      "avatar": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/sDbtalRTKQ7lQXzPARHp",
+      "bio": "<p>Kitze founded <a href=\"https://reactacademy.io/\">React Academy</a> to teach React and GraphQL around the world. He's the maker of <a href=\"https://sizzy.co/\">Sizzy</a> - the browser for designers and developers. He's documenting his journey <a href=\"https://youtube.com/kitze\">on YouTube</a>. He made products like <a href=\"https://github.com/kitze/JSUI\">JSUI</a>, <a href=\"https://twizzy.app/\">Twizzy</a>, <a href=\"https://luckyretweet.co/\">Lucky Retweet</a>, <a href=\"https://ok-google.io/\">OK Google</a>, etc.</p>\n",
+      "socials": [
+        {
+          "link": "https://github.com/kitze",
+          "icon": "gh"
+        },
+        {
+          "link": "https://twitter.com/thekitze",
+          "icon": "tw"
+        }
+      ],
+      "activities": {
+        "workshops": [
+          {
+            "title": "React Advanced",
+            "slug": "react-advanced"
+          },
+          {
+            "title": "React Advanced",
+            "slug": "react-advanced"
+          }
+        ]
+      }
+    },
+    {
       "id": "ck38s6qxa28h90b66plt7e737",
       "name": "Matteo Collina",
       "company": "NearForm, Italy",
@@ -1845,7 +2278,10 @@
           "description": "Promise.all is a fantastic utility to wait for a list of promises to complete. Developers around the globe use it daily in Node.js applications to parallelise tasks and reduce latency. Most of the time, it works as expected. Sometimes, it causes so much memory allocation that it slows your process to a crawl or results in an out-of-memory error. Why? Let's dig in together.",
           "timeString": "",
           "isLightning": false,
-          "track": null
+          "track": {
+            "name": "General",
+            "isPrimary": true
+          }
         }
       ],
       "workshops": [],
@@ -1935,7 +2371,7 @@
       "company": "ING, Netherlands",
       "country": "Netherlands",
       "githubUrl": "https://github.com/shershen08",
-      "twitterUrl": null,
+      "twitterUrl": "https://twitter.com/legkoletat",
       "mediumUrl": null,
       "ownSite": null,
       "talks": [],
@@ -1953,6 +2389,10 @@
         {
           "link": "https://github.com/shershen08",
           "icon": "gh"
+        },
+        {
+          "link": "https://twitter.com/legkoletat",
+          "icon": "tw"
         }
       ],
       "activities": {
@@ -1970,7 +2410,7 @@
       "company": "Software Engineer, Netherlands",
       "country": "Netherlands",
       "githubUrl": "https://github.com/korzio",
-      "twitterUrl": null,
+      "twitterUrl": "https://twitter.com/AlexKorzhikov",
       "mediumUrl": null,
       "ownSite": null,
       "talks": [],
@@ -1988,6 +2428,10 @@
         {
           "link": "https://github.com/korzio",
           "icon": "gh"
+        },
+        {
+          "link": "https://twitter.com/AlexKorzhikov",
+          "icon": "tw"
         }
       ],
       "activities": {
@@ -2014,7 +2458,10 @@
           "description": "Live-coded audiovisual presentation that will delve into musical notation and visual scores as a  language for human-computer improvisation. What does it mean when an instruction is open-ended rather than precise? How can algorithmic uncertainty open up creative possibilities to improvise using code? Olivia will use javascript to explore a live relationship between code, image, and sound as intertwined creative languages.",
           "timeString": null,
           "isLightning": null,
-          "track": null
+          "track": {
+            "name": "General",
+            "isPrimary": true
+          }
         }
       ],
       "workshops": [],
@@ -2046,6 +2493,41 @@
           {
             "title": "Live coding visuals with Hydra (3h Workshop)",
             "slug": "live-coding-visuals-with-hydra-3h-workshop"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ck6hmpiyxqtyg0b20nti06hgg",
+      "name": "Markus Leutwyler",
+      "company": "Nodebots Switzerland, Switzerland",
+      "country": "Switzerland",
+      "githubUrl": null,
+      "twitterUrl": null,
+      "mediumUrl": null,
+      "ownSite": "http://nodebots.ch/",
+      "talks": [],
+      "workshops": [],
+      "workshopsActivity": [
+        {
+          "title": "Robotics (3h Workshop)",
+          "slug": "robotics-3h-workshop"
+        }
+      ],
+      "slug": "markus-leutwyler",
+      "avatar": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/l1e2ctw5TBqM5qemVHcS",
+      "bio": "<p>Markus works as the CEO and CTO of make.human.technology, where his focus is to make and keep technology human friendly. In his spare time, he likes to tinker with hardware, electronics and robots and thus this was how nodebots was born, at the intersection of the web and hardware.</p>\n",
+      "socials": [
+        {
+          "link": "http://nodebots.ch/",
+          "icon": "site"
+        }
+      ],
+      "activities": {
+        "workshops": [
+          {
+            "title": "Robotics (3h Workshop)",
+            "slug": "robotics-3h-workshop"
           }
         ]
       }
@@ -2201,7 +2683,31 @@
       "speaker": {
         "info": []
       },
-      "trainers": [],
+      "trainers": [
+        {
+          "id": "ck10teywmv6940b541heiz22b",
+          "name": "Alex Lobera",
+          "company": "React GraphQL Academy",
+          "country": "UK",
+          "bio": "Founder at React GraphQL Academy and LeanJS. Developer and Coach passionate about JavaScript, React and GraphQL. Organizer of the JavaScript London Meetup and other popular meetups in the EU.",
+          "githubUrl": "https://github.com/alexlbr",
+          "twitterUrl": "https://twitter.com/alex_lobera",
+          "mediumUrl": null,
+          "ownSite": null,
+          "avatar": {
+            "url": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/jx66c2DKQ3KhZSOiLxXS"
+          },
+          "talks": [],
+          "workshops": [],
+          "workshopsActivity": [
+            {
+              "title": "GraphQL API – From Zero to Production",
+              "slug": "graph-ql-api-from-zero-to-production"
+            }
+          ],
+          "slug": "alex-lobera"
+        }
+      ],
       "id": "ck66bbsu0vmse0b20hompqakx",
       "status": "PUBLISHED",
       "title": "GraphQL API – From Zero to Production",
@@ -2222,7 +2728,79 @@
         "starting": "9:00",
         "ending": "17:00"
       },
+      "trainersTitle": "Alex Lobera",
       "slug": "graph-ql-api-from-zero-to-production",
+      "finishingTime": ""
+    },
+    {
+      "speaker": {
+        "name": "Kitze",
+        "info": [],
+        "talks": [],
+        "workshops": [
+          {
+            "title": "React Advanced"
+          }
+        ],
+        "workshopsActivity": [
+          {
+            "title": "React Advanced"
+          }
+        ]
+      },
+      "trainers": [
+        {
+          "id": "ck10t71go59pg0b71iw2zrad5",
+          "name": "Kitze",
+          "company": "React Academy",
+          "country": "Poland",
+          "bio": "Kitze founded [React Academy](https://reactacademy.io/) to teach React and GraphQL around the world. He's the maker of [Sizzy](https://sizzy.co/) - the browser for designers and developers. He's documenting his journey [on YouTube](https://youtube.com/kitze). He made products like [JSUI](https://github.com/kitze/JSUI), [Twizzy](https://twizzy.app/), [Lucky Retweet](https://luckyretweet.co/), [OK Google](https://ok-google.io/), etc.",
+          "githubUrl": "https://github.com/kitze",
+          "twitterUrl": "https://twitter.com/thekitze",
+          "mediumUrl": null,
+          "ownSite": null,
+          "avatar": {
+            "url": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/sDbtalRTKQ7lQXzPARHp"
+          },
+          "talks": [],
+          "workshops": [
+            {
+              "title": "React Advanced",
+              "slug": "react-advanced"
+            }
+          ],
+          "workshopsActivity": [
+            {
+              "title": "React Advanced",
+              "slug": "react-advanced"
+            }
+          ],
+          "slug": "kitze"
+        }
+      ],
+      "id": "ck6i1yfk7t3ny0b20uo9rdrgg",
+      "status": "PUBLISHED",
+      "title": "React Advanced",
+      "toc": "<ul>\n<li>Hooks</li>\n<li>React Context API</li>\n<li>Higher Order Components</li>\n<li>Render Props</li>\n<li>Compound Components</li>\n<li>Practical use-cases for Portals, Fragments, React.lazy and Suspense&#x3C;</li>\n<li>and more..</li>\n</ul>\n<p>Learn more about workshops from Kitze on his <a href=\"https://www.reactacademy.io/\">website</a>.</p>\n",
+      "duration": "8",
+      "description": "<p>Full-day, hands-on coding workshop to explore advanced patterns and new features in React. React may be just a simple UI library, but it involves a pretty big ecosystem around it. Explaining the basics and internals is not enough, so in this module we're going to explain the best practices, we're going to learn to \"think in React\", and apply solutions to real problems that you might encounter in the process of building an app.</p>\n<p>We'll explore all the advanced techniques for making flexible and maintainable React components. We'll see how using popular patterns like Higher Order Components, Compound Components, Render Props etc. can help us in simplifying things, making our components more reusable and our apps more declarative.</p>\n<p>React 16 comes with some major changes and an update to the core algorithm. In this module, we'll explore some practical use-cases for Hooks, Portals, Fragments, Error Boundaries etc. We'll see how the new Context API can simplify state-management and we'll play with a new feature called react-call-return.</p>\n",
+      "prerequisites": "Experience with modern JavaScript features and fundamental React concepts.",
+      "content": [],
+      "additionalInfo": null,
+      "level": "Intermediate/Advanced JavaScript/React Developers.",
+      "location": "<p><a href=\"https://goo.gl/maps/iDV2dUZTmR1zoj8eA\">RAI</a></p>\n",
+      "slogan": null,
+      "code": "ws-ReactAdvanced",
+      "date": "2020-06-03T00:00:00.000Z",
+      "dateString": "June, 3",
+      "startingTime": "9:00",
+      "schedule": {
+        "starting": "9:00",
+        "ending": "17:00"
+      },
+      "trainer": "Kitze",
+      "trainersTitle": "Kitze",
+      "slug": "react-advanced",
       "finishingTime": ""
     },
     {
@@ -2249,7 +2827,10 @@
               "description": "Promise.all is a fantastic utility to wait for a list of promises to complete. Developers around the globe use it daily in Node.js applications to parallelise tasks and reduce latency. Most of the time, it works as expected. Sometimes, it causes so much memory allocation that it slows your process to a crawl or results in an out-of-memory error. Why? Let's dig in together.",
               "timeString": "",
               "isLightning": false,
-              "track": null
+              "track": {
+                "name": "General",
+                "isPrimary": true
+              }
             }
           ],
           "workshops": [],
@@ -2378,7 +2959,7 @@
           "country": "Netherlands",
           "bio": "Mikhail is a developer with 10 years of expertise building web\napplications. He used a variety of frameworks, throughout his career\nstarting with jQuery , AngularJS and Polymer; then he discovered VueJS and used it for several projects. Since 2019 he became a happy user of Svelte v3.\nBesides fullstack development for enterprise companies Mikhail is doing open source projects and [speaks on meetups and conferences](https://github.com/shershen08/conf-talks) about various topics in modern web development.\nMikhail runs a local ​[Svelte meetup group in Amsterdam](https://www.meetup.com/Amsterdam-SvelteJS/)​.",
           "githubUrl": "https://github.com/shershen08",
-          "twitterUrl": null,
+          "twitterUrl": "https://twitter.com/legkoletat",
           "mediumUrl": null,
           "ownSite": null,
           "avatar": {
@@ -2401,7 +2982,7 @@
           "country": "Netherlands",
           "bio": "Software engineer, team lead, ​[instructor​,](https://github.com/korzio/modern_javascript_frameworks) mentor, and ​[author of technical materials](https://medium.com/@korzio)​ in JavaScript, Node, ​[JSON-Schema](https://github.com/korzio/djv)​, Web Components, TypeScript.",
           "githubUrl": "https://github.com/korzio",
-          "twitterUrl": null,
+          "twitterUrl": "https://twitter.com/AlexKorzhikov",
           "mediumUrl": null,
           "ownSite": null,
           "avatar": {
@@ -2467,7 +3048,10 @@
               "description": "Live-coded audiovisual presentation that will delve into musical notation and visual scores as a  language for human-computer improvisation. What does it mean when an instruction is open-ended rather than precise? How can algorithmic uncertainty open up creative possibilities to improvise using code? Olivia will use javascript to explore a live relationship between code, image, and sound as intertwined creative languages.",
               "timeString": null,
               "isLightning": null,
-              "track": null
+              "track": {
+                "name": "General",
+                "isPrimary": true
+              }
             }
           ],
           "workshops": [],
@@ -2503,6 +3087,60 @@
       "trainersTitle": "Olivia Jack",
       "slug": "live-coding-visuals-with-hydra-3h-workshop",
       "order": 6,
+      "finishingTime": ""
+    },
+    {
+      "speaker": {
+        "info": []
+      },
+      "trainers": [
+        {
+          "id": "ck6hmpiyxqtyg0b20nti06hgg",
+          "name": "Markus Leutwyler",
+          "company": "Nodebots Switzerland",
+          "country": "Switzerland",
+          "bio": "Markus works as the CEO and CTO of make.human.technology, where his focus is to make and keep technology human friendly. In his spare time, he likes to tinker with hardware, electronics and robots and thus this was how nodebots was born, at the intersection of the web and hardware.",
+          "githubUrl": null,
+          "twitterUrl": null,
+          "mediumUrl": null,
+          "ownSite": "http://nodebots.ch/",
+          "avatar": {
+            "url": "https://media.graphcms.com/output=format:jpg/resize=fit:crop,height:500,width:500/l1e2ctw5TBqM5qemVHcS"
+          },
+          "talks": [],
+          "workshops": [],
+          "workshopsActivity": [
+            {
+              "title": "Robotics (3h Workshop)",
+              "slug": "robotics-3h-workshop"
+            }
+          ],
+          "slug": "markus-leutwyler"
+        }
+      ],
+      "id": "ck6hmm223qtg90b20jozi1xku",
+      "status": "PUBLISHED",
+      "title": "Robotics (3h Workshop)",
+      "toc": "<ul>\n<li>Javascript Robotics Primer</li>\n<li>Building the Sumobot (3-wheeled, battery-powered, wireless Robot)</li>\n<li>Installation and Configuration of the Robot Brain (Microcontroller plus Motor Driver)</li>\n<li>Programming your Robot using JavaScript and the johnny-five framework</li>\n</ul>\n",
+      "duration": null,
+      "description": "<p>In this 3h practical Workshop for Robotics Beginners you’ll build your own Sumobot and then learn how to program it with JavaScript. We end with a sumo-style Battle of the Bots.</p>\n",
+      "prerequisites": "Bring your own notebook (Linux, Mac or Windows) with Node.js installed.",
+      "content": [],
+      "additionalInfo": null,
+      "level": "Anyone interested in Robotics.",
+      "location": "<p><a href=\"https://goo.gl/maps/wsmBsffwvAoBnnWk9\">IIRE</a></p>\n",
+      "slogan": null,
+      "code": "ws-robotics",
+      "date": "2020-06-04T00:00:00.000Z",
+      "dateString": "June, 4",
+      "startingTime": "9:00",
+      "schedule": {
+        "starting": "9:00",
+        "ending": "12:00"
+      },
+      "trainersTitle": "Markus Leutwyler",
+      "slug": "robotics-3h-workshop",
+      "order": 7,
       "finishingTime": ""
     },
     {
@@ -2556,7 +3194,7 @@
       },
       "trainersTitle": " Maurice de Beijer",
       "slug": "getting-started-with-suspense-and-concurrent-rendering-in-react-3h-workshop",
-      "order": 7,
+      "order": 8,
       "finishingTime": ""
     },
     {
@@ -2610,7 +3248,7 @@
       },
       "trainersTitle": "Corentin Leruth",
       "slug": "graph-ql-by-hackages-3h-workshop",
-      "order": 8,
+      "order": 9,
       "finishingTime": ""
     }
   ],
@@ -2918,10 +3556,10 @@
     "dates": [
       {
         "key": "dates",
-        "title": "<p>Wednesday-Thursday</p>\n<p>June</p>\n",
-        "subtitle": "<p>3-4th</p>\n",
-        "description": "<p>Nation`s top educators from all over the globe</p>\n",
-        "location": "<p>Workshops</p>\n",
+        "title": "Wed-Thu, June",
+        "subtitle": "3-4th",
+        "description": "Nations Top education from over the globe",
+        "location": "Workshops",
         "slackChannelName": null,
         "registerLink": "/workshops",
         "locationLink": null,
@@ -2929,10 +3567,10 @@
       },
       {
         "key": "dates",
-        "title": "<p>Friday</p>\n<p>June</p>\n",
-        "subtitle": "<p>5th</p>\n",
-        "description": "<p>General and NodeJS halls, JS powered art exhibition and an afterparty</p>\n",
-        "location": "<p>Conference day</p>\n",
+        "title": "Fri, June",
+        "subtitle": "5th",
+        "description": "General and NodeJS halls featuring unique panoramic screen expirience",
+        "location": "Conference Day",
         "slackChannelName": null,
         "registerLink": "#speakers",
         "locationLink": null,
@@ -2942,10 +3580,10 @@
       },
       {
         "key": "dates",
-        "title": "<p>Saturday</p>\n<p>June</p>\n",
-        "subtitle": "<p>6th</p>\n",
-        "description": "<p>Museums visit in the morning and JS hangout in the park since lunch</p>\n",
-        "location": "<p>Hangout day</p>\n",
+        "title": "Sat, June",
+        "subtitle": "6th",
+        "description": "Museuym visits in the norning and JS hangout in the park",
+        "location": "Hangout Day",
         "slackChannelName": null,
         "registerLink": "#hangout-day",
         "locationLink": null,
@@ -2957,13 +3595,13 @@
   },
   "jobs": [
     {
-      "id": "ck36gdnkrxin20b66of6jxny4",
-      "title": "Are You Formidable?",
+      "id": "ck6hohrcmfobz0b75hbuod2lr",
+      "title": "Join the culture. Reaktor has been waiting for you.",
       "slogan": "\n",
       "subtitle": "\n",
-      "description": "\n",
-      "image": "https://media.graphcms.com/knpNY7bTqm4Lh4yQis1Z",
-      "link": "https://www.formidable.com/"
+      "description": "<p>Curious about applying your tech skills in different domains?\nPlanning and theory are important, but the most value is in the execution?\nSo passionate about your hobbies that your friends are asking you to shut up already?\nKeep finding yourself in heated discussions about the latest features in your favorite programming language?\nLook at you sounding like a Reaktorian already 😎</p>\n<p>So, dear future colleague: apply, we’re waiting for your email at careers-nl@reaktor.com. Come tackle the most exciting and complex tech problems out there with us.</p>\n",
+      "image": "https://media.graphcms.com/OKzsNcDVTKuJKa3ffuoP",
+      "link": "https://www.reaktor.com/careers/"
     }
   ],
   "diversity": {
@@ -2974,15 +3612,15 @@
     "maxTickets": 50,
     "sponsoredTickets": 20,
     "applyButtonText": "Apply for diversity scholarship",
-    "applyButtonLink": "https://docs.google.com/forms/d/e/1FAIpQLSef0NNPgfvkruA2agO3xd7Bj4kHEEISTOr7s8ClrFsg0KmpEA/viewform",
+    "applyButtonLink": "https://docs.google.com/forms/d/e/1FAIpQLSe17OFAUlxF6zzml3BozkwUGX72X7vtHEkScxFDtjEBhZUo6Q/viewform",
     "showApplyButton": true,
     "sponsorButtonText": "Sponsor diversity tickets",
     "sponsorButtonLink": "hi@jsnation.com",
     "showSponsorButton": true,
     "sponsors": [
       {
-        "title": "Amazon Web Service",
-        "avatar": "https://media.graphcms.com/2VqkoLHdQo2enx7rvXCY"
+        "title": "AWS Amplify",
+        "avatar": "https://media.graphcms.com/I9ltQ0oGTGaZTLS80b1h"
       }
     ],
     "progress": 40

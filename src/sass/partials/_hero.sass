@@ -1,0 +1,231 @@
+/*----- Hero -----*/
+
+.hero
+	padding: 48px 48px
+
+	+lg
+		padding: 52px 48px 48px
+
+	+med 
+		padding: 52px 20px
+
+	+sm
+		padding: 52px 0 0
+
+
+	.container
+		position: relative
+		background: url(../img/bg_hero.png) center center no-repeat
+		background-size: cover
+		border: 2px solid var(--clr-green)
+		height: 100%
+		padding: 223px 58px
+		display: flex
+		width: 100%
+		flex-direction: column
+
+		+lg
+			padding: 80px 40px 40px
+
+			&:after
+				width: 88px
+
+			&:before
+				height: 24px
+
+
+		+med
+
+		+sm
+			padding: 30px 15px 18px
+
+		&:after
+			content: ''
+			position: absolute
+			left: -2px
+			top: -2px
+			width: 160px
+			height: 2px
+			background: var(--clr-black)
+
+		&:before
+			content: ''
+			position: absolute
+			left: -2px
+			top: -2px
+			width: 2px
+			height: 70px
+			background: var(--clr-black)
+
+		+sm
+			border: 1px solid var(--clr-green)
+
+			
+
+	&__content
+		margin: auto 0
+
+		+lg
+			margin: 24px 0 24px 
+
+		+sm
+			margin: 28px 0 14px 
+
+	&__title
+		+fira
+		font-size: 40px
+		line-height: 1
+		font-weight: 700
+		max-width: 550px
+		margin: 0 0 25px
+
+		+sm
+			font-size: 24px
+			margin: 0 0 14px
+
+	&__desc
+		+menlo
+		font-style: 16px
+		line-height: 1.4
+		max-width: 500px
+		margin: 25px 0 23px
+
+		+sm
+			font-size: 14px
+			margin: 14px 0 22px
+			line-height: 1.46
+
+	&__img
+		position: absolute
+		left: 58%
+		top: 50%
+		transform: translateY(-50%)
+
+		+lg
+			position: relative
+			left: 0
+			top: 0
+			transform: translateY(0)
+			width: 220px
+			margin: 0 auto
+		+sm
+			width: 176px
+
+		img
+			max-width: 100%
+
+	&__loc
+		position: absolute
+		left: 57px
+		bottom: 61px
+
+		+lg
+			position: relative
+			left: auto
+			bottom: auto
+			margin: 12px 0
+
+		+med
+			display: flex
+			margin: 12px 0
+			justify-content: center
+
+		+sm
+			justify-content: flex-start
+
+			.icon
+				width: 24px
+				height: 24px
+
+	&__stats
+		position: absolute
+		bottom: 60px
+		left: 58%
+
+		+lg
+			position: relative
+			left: auto
+			bottom: auto
+			margin: 12px 0 0
+
+			.info-stats
+				text-align: center
+
+				&__item
+					justify-content: center
+
+		+med
+			display: flex
+			margin: 12px 0
+			justify-content: center
+
+			.info-stats__item
+				margin: 0 20px
+
+		+sm
+			justify-content: flex-start
+			font-size: 18px
+			margin: 10px 0
+
+			.info-stats__item
+				margin: 0 0
+
+	.socials
+		position: absolute
+		right: 15px
+		top: 50%
+		transform: translateY(-50%)
+		flex-direction: column
+
+		+med
+			position: relative
+			right: auto
+			top: auto
+			transform: translateY(0)
+			flex-direction: row
+			justify-content: center
+
+		+sm
+			justify-content: flex-start
+			margin: 8px 0
+
+		&__item
+			margin: 2px 0
+
+			&:first-child
+				margin: 2px 0
+
+			+sm
+				margin: 0 5px 0 0
+
+				&:first-child
+					margin: 0 5px 0 0
+
+
+		&__img
+			width: 17px
+			height: 14px
+			width: 100%
+			fill: var(--clr-text)
+			transition: all 0.2s ease
+			&.sl
+				width: 24px
+				height: 24px
+			&.tw
+				width: 24px
+				height: 24px
+			&.yt
+				width: 24px
+				height: 24px
+			&.fb
+				width: 24px
+				height: 24px
+			&.med
+				width: 22px
+				height: 24px
+			&.gh
+				width: 24px
+				height: 24px
+
+
+

@@ -1,0 +1,67 @@
+<section class="hero">
+	<div class="container">
+
+		<div class="hero__img">
+			<img src="img/hero-img.svg">
+		</div>
+		
+		<div class="hero__content">
+			<h2 class="hero__title">{{ pages[pageKey].titlePage }}</h2>
+			<p class="hero__desc">{{ pages[pageKey].pageSlogan }}</p>
+			
+			<div class="btns-wrap">
+				<a class="basic-btn" href="#">Follow for updates {{mixins.icon('arrow-link')}}</a>
+				<a class="basic-btn bordered" href="#">Сontact {{mixins.icon('arrow-link')}}</a>
+			</div>
+		</div>
+
+		<div class="hero__loc info-loc">
+			{% for loc in pages[pageKey].locInfo %}
+			<div class="info-loc__item">
+				<svg class="icon icon-{{ loc.icon }}"><use xlink:href="img/sprite-inline.svg#{{ loc.icon }}"></use></svg>
+				{{ loc.desc }}
+			</div>
+			{% endfor %}
+		</div>
+
+		<div class="hero__stats info-stats">
+			{% for stat in pages[pageKey].pageStatistics.hero %}
+				<div class="info-stats__item">
+					<p class="info-stats__title">{{ stat.num }} {{ stat.title }}</p>
+					<p class="info-stats__desc">{{ stat.descr | safe }}</p>
+				</div>
+			{% endfor %}
+		</div>
+		
+		<ul class="socials">
+			<li class="socials__item">
+				<a href="https://www.facebook.com/ReactAdvanced" target="_blank" class="socials__link">
+					<svg class="socials__img fb" role="img" aria-hidden="true">
+						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v2#fb"></use>
+					</svg>
+				</a>
+			</li>
+			<li class="socials__item">
+				<a href="http://twitter.com/reactadvanced" target="_blank" class="socials__link">
+					<svg class="socials__img tw" role="img" aria-hidden="true">
+						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v2#tw"></use>
+					</svg>
+				</a>
+			</li>
+			<li class="socials__item">
+				<a href="https://youtube.com/c/ReactConferences" target="_blank" class="socials__link">
+					<svg class="socials__img yt" role="img" aria-hidden="true">
+						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v2#yt"></use>
+					</svg>
+				</a>
+			</li>
+			<li class="socials__item">
+				<a href="https://medium.com/@ReactAdvanced" target="_blank" class="socials__link">
+					<svg class="socials__img med" role="img" aria-hidden="true">
+						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v2#med"></use>
+					</svg>
+				</a>
+			</li>
+		</ul>
+	</div>
+</section>

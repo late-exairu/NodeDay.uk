@@ -1,0 +1,21 @@
+<section class="team section light" id="committee">
+	<div class="container">
+		<div class="section__head">
+			<div class="section__head-l">
+				<h2 class="section__title">{{pages[pageKey].pageSections.committee.title}}</h2>
+			</div>
+
+			<div class="section__head-r">
+				<a class="basic-btn">Call for MCs {{mixins.icon('arrow-link')}}</a>
+			</div>
+		</div>
+
+		<div class="team__inner">
+			{% for item in speakers.committee %}
+			<div class="team__item">
+				{{mixins.teammate(item, '', noTracks)}}
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>
