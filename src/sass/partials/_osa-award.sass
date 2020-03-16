@@ -1,0 +1,81 @@
+.osa-award
+	margin: 0
+	background: var(--clr-grayL)
+	color: var(--clr-black)
+
+	.container
+		padding-top: 50px
+		padding-bottom: 150px
+
+	&__decor
+		position: relative
+		margin: 38px 0 0 auto
+		width: 234px
+		height: 212px
+		background: url(../img/decor_osa.png) center center
+		background-size: cover
+
+		+lg
+
+		+med
+			position: relative
+			width: 200px
+			height: 186px
+			right: auto
+			top: 0
+			margin: 20px auto
+		+sm
+			width: 138px
+			height: 130px
+	
+	.section__title
+		background: var(--clr-grayL)
+	
+	.section__head
+		+med
+			flex-direction: column
+	
+	.section__head-l
+		flex: 1 1 70%
+
+		+med
+			order: 2
+
+
+
+	.section__head-r
+		padding-left: 100px
+		flex-direction: column
+
+		.basic-btn
+			margin: auto 0 0
+
+			+med
+				position: absolute
+				left: 50%
+				right: auto
+				bottom: 0
+				transform: translate(-50%, 50%)
+				margin: 0
+				box-shadow: -15px 0 var(--clr-grayL),  15px 0 var(--clr-grayL)
+
+
+		+lg
+			padding-left: 30px
+
+		+med
+			order: 1
+			padding-left: 0
+
+	.border-wrap
+		background: var(--clr-grayL)
+		padding: 40px 60px 60px
+
+		+lg
+			padding: 30px 40px 40px
+
+		+med
+			padding: 30px 40px 50px
+
+		+sm
+			padding: 24px 24px 40px

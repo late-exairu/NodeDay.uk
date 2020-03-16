@@ -1,0 +1,96 @@
+
+.party-mcs
+	padding: 0 10px
+	margin: 45px 0
+	display: flex
+
+	+lg
+		flex-direction: column
+
+	&__left
+		flex: 1 1 65%
+
+		+lg
+			order: 2
+
+	&__right
+		flex: 1 1 35%
+		margin: 0 0 40px
+
+		+lg
+			order: 1
+
+	&__decor
+		position: relative
+		margin: 38px auto 0 auto
+		width: 200px
+		height: 210px
+		background: url(../img/decor_party.png) center center
+		background-size: cover
+
+		+med
+			position: relative
+			width: 200px
+			height: 228px
+			right: auto
+			top: 0
+			margin: 0 auto
+		+sm
+			width: 166px
+			height: 188px
+
+
+
+.mcs
+
+	&__item
+		display: flex
+
+		&:not(:first-child)
+			margin: 36px 0 0
+
+		+sm
+			flex-direction: column
+
+	&__left
+		margin: 0 32px 0 0
+		width: 100%
+		flex: 0 0 100%
+		max-width: 135px
+
+		+sm
+			margin: 0 auto 20px
+
+	&__right
+		padding: 0
+
+		+sm
+			max-width: auto
+
+	&__img
+		display: block
+		width: 100%
+		height: auto
+
+	&__title
+		+fira
+		color: var(--clr-green)
+		font-weight: bold
+		font-size: 22px
+		line-height: 1.4
+		margin: -4px 0 2px
+
+	&__skills
+		+fira
+		color: var(--clr-black)
+		font-weight: 500
+		font-size: 14px
+		line-height: 1.4
+		margin: 2px 0 4px
+
+	&__desc
+		+menlo
+		color: var(--clr-gray)
+		font-size: 14px
+		line-height: 1.44
+		margin: 11px 0

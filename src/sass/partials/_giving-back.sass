@@ -1,0 +1,61 @@
+.giving-back
+	margin: -100px 0 0
+	
+	.section__head-l
+		flex: 1 1 70%
+
+
+	.section__head-r
+		padding-left: 100px
+		flex-direction: column
+
+		.basic-btn
+			margin: 0
+
+			+med
+				margin-top: 30px
+
+		+lg
+			padding-left: 30px
+
+		+med
+			margin: 30px 0 0
+			padding-left: 0
+
+	.border-wrap
+		background-image: url(../img/footer-bg.png)
+		background-position: center bottom
+		background-repeat: repeat-x
+
+		+med
+			padding: 40px 40px 40px
+
+		+sm
+			padding: 24px 24px 24px
+
+
+.diversity-progress
+	margin: auto 0
+	color: var(--clr-green)
+	
+	&__title
+		+menlo
+		font-size: 24px
+		line-height: 1.4
+		margin: 12px 0 8px
+
+	&__desc
+		+menlo
+		font-size: 16px
+		line-height: 1.4
+		margin: 8px 0 0
+
+
+.diversity-bar
+	height: 12px
+	width: 100%
+	border: 1px solid var(--clr-green)
+
+	&__progress
+		height: 10px
+		background: var(--clr-green)

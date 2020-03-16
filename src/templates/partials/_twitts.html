@@ -1,0 +1,15 @@
+<section class="twitts" id="twitts">
+  <div class="container">
+	<div class="event__head section__head">
+		<h2 class="section__title">{{pages[pageKey].pageSections.twitts.title}}</h2>
+	</div>
+    
+    <script src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <ul class="twitts-list">
+      {% for twitt in twitts %}
+      <li class="twitts-list__item">{{twitt.link | safe}}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

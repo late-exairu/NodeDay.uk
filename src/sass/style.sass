@@ -44,22 +44,52 @@ a
 
 .container
 	position: relative
-	max-width: 1116px
+	max-width: 1360px
 	margin: 0 auto
 	padding: 30px 58px
 
+	+xxl
+		// max-width: auto
+
 	+xl
-		max-width: 912px
+		// max-width: 912px
 
 	+lg
-		max-width: 768px
+		// max-width: 768px
 
 	+med
-		max-width: 578px
-		padding-right: 20px
-		padding-left: 20px
+		// max-width: 578px
+		padding-right: 15px
+		padding-left: 15px
 
 	+sm
+
+
+.border-wrap
+	position: relative
+	background-size: cover
+	border: 2px solid var(--clr-green)
+	height: 100%
+	padding: 62px 60px 86px
+	display: flex
+	width: 100%
+	flex-direction: column
+	background: var(--clr-blackD)
+
+	+lg
+		padding: 80px 40px 40px
+
+		&:after
+			width: 88px
+
+		&:before
+			height: 0
+
+
+	+med
+
+	+sm
+		padding: 30px 15px 18px
 
 b,
 h1,
@@ -73,6 +103,6 @@ h6
 @import generated/sprite-svg
 @import helpers/fonts
 
-@import vendor/slick
+@import vendor/swiper
 
 @import partials/all

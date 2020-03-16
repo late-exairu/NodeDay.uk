@@ -1,9 +1,9 @@
-<section class="team section dark" id="advice-lounge">
+<section class="team advice-lounge section" id="advice-lounge">
 	<div class="container">
 		<div class="section__head">
 			<div class="section__head-l">
 				<h2 class="section__title">{{pages[pageKey].pageSections.adviceLounge.title}}</h2>
-				<p class="section__desc">Meet domain experts and community leaders one-on-one to address your problems and get personalized advice on the challenges you’re facing.</p>
+				<p class="section__desc">{{pages[pageKey].pageSections.adviceLounge.descr}}</p>
 			</div>
 			
 			<div class="section__head-r">
@@ -12,19 +12,11 @@
 		</div>
 
 		<div class="team__inner">
-			{% for item in speakers[pageKey] %}
+			{% for item in speakers.committee %}
 			<div class="team__item">
-				{{mixins.teammate(item, '', noTracks)}}
+				{{mixins.teammate(item, 'teammate_on-dark', noTracks)}}
 			</div>
 			{% endfor %}
-
-			{% if (pages[pageKey].pageSections.team.cpf) %}
-			<div class="team__item team__item_assign">
-				<p class="team__title">You?</p>
-				<p class="team__desc">CFP is open until  29th February</p>
-				<a class="basic-btn" href="#">Submit proposal {mixins.icon('arrow-link')}}</a>
-			</div>
-			{% endif %}
 		</div>
 	</div>
 </section>

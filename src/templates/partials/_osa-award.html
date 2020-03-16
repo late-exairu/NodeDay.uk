@@ -1,0 +1,31 @@
+<section class="osa-award section" id="osa-award">
+	<div class="container">
+
+		<div class="border-wrap">
+			<div class="section__head">
+				<div class="section__head-l">
+					<h2 class="section__title outer">{{pages[pageKey].pageSections.osa.title}}</h2>
+					<p class="section__desc">{{pages[pageKey].pageSections.osa.descr | safe }}</p>
+
+					<div class="basic-list-wrap">
+						<h4 class="basic-list-title">Nominations:</h4>
+
+						<ul class="basic-list">
+							<li class="basic-list__item"><a href="#">Breakthrough of the year</a></li>
+							<li class="basic-list__item"><a href="#">Fun side project of the year</a></li>
+							<li class="basic-list__item"><a href="#">Most impactful contribution to the community</a></li>
+							<li class="basic-list__item"><a href="#">Productivity booster</a></li>
+							<li class="basic-list__item"><a href="#">The most exciting use of technology</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="section__head-r">
+					<div class="osa-award__decor"></div>
+
+					<a class="basic-btn">More about awards {{mixins.icon('arrow-link')}}</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

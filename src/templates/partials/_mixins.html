@@ -60,7 +60,7 @@
 <div class="teammate {{ classes }} {{person.mod}} {% if person.decor %}teammate_decor{% endif %}" style="--tag-clr: {{person.tagBG}};">
 	<span class="anchor" id="person-{{ person.slug }}"></span>
 	<div class="teammate__top">
-		<div class="teammate__img">
+		<div class="teammate__img {% if person.activities.talks[0] %}overlayed{% endif %}">
 			<img src="{{person.avatar}}">
 
 			{{ avatarWithDetails(person.activities.talks[0], person, hideTrack) }}

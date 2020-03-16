@@ -1,0 +1,34 @@
+.party
+	margin: 0
+	background: var(--clr-grayL)
+
+	.container
+		padding-top: 80px
+
+	.border-wrap
+		background: url(../img/bg-party.jpg) center center
+		background-size: cover
+		padding: 62px 60px 62px
+
+
+.party-nav
+	display: flex
+	margin: 48px 0 0
+
+	&__prev,
+	&__next
+		width: 64px
+		height: 64px
+		border: 2px solid var(--clr-green)
+		display: flex
+		justify-content: center
+		align-items: center
+		cursor: pointer
+
+		.icon
+			width: 13px
+			height: 23px
+			fill: var(--clr-white)
+
+	&__next
+		margin: 0 0 0 -2px

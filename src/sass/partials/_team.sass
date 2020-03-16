@@ -1,5 +1,5 @@
 .team
-	padding: 118px 0 0
+	padding: 56px 0 0
 	background: var(--clr-grayL)
 
 	+lg
@@ -19,11 +19,11 @@
 		display: flex
 		flex-wrap: wrap
 		align-items: flex-start
-		margin: 60px -2% 20px
+		margin: 44px -2% 20px
 		+lg
 			margin: 40px -2%
 		+sm
-			margin: 0 -2px
+			margin: 20px -2%
 	&__item
 		width: 25%
 		margin: 0 0 50px 0
@@ -261,6 +261,23 @@
 					+bgred
 						background-color: var(--clr-green)
 						border-color: var(--clr-white)
+
+	&_on-dark
+		.teammate
+			&__company,
+			&__info
+				color: var(--clr-white)
+
+			&__socials
+				.socials
+					&__link
+						&:hover
+							.icon
+								fill: var(--clr-white)
+
+
+
+
 	&__top
 		position: relative
 		margin: 0 0 12px
@@ -276,7 +293,12 @@
 		padding: 8px
 		border: 2px solid var(--clr-green)
 		// background: var(--tag-clr)
-		mix-blend-mode: multiply
+
+		&.overlayed
+			mix-blend-mode: multiply
+
+		+med
+			padding: 6px
 
 		img
 			display: block
@@ -291,19 +313,21 @@
 		top: 8px
 		right: 8px
 		bottom: 8px
+		overflow: hidden
+
+		+med
+			left: 6px
+			top: 6px
+			right: 6px
+			bottom: 6px
 
 	&__inner
-		padding: 0 0 0
+		padding: 0
 		position: relative
 		z-index: 2
 		display: flex
 		flex-direction: column
 		justify-content: space-between
-
-		+lg
-			padding: 14px 10px 10px 10px
-		+xs
-			padding: 9px 0 0
 
 	&__content
 		position: relative
@@ -325,12 +349,13 @@
 	&__name
 		+fira
 		font-size: 20px
+
 		+lg
 			font-size: 20px
 
-		+xs
-			font-size: 14px
-			padding: 0 8px
+		+sm
+			font-size: 18px
+
 		&:not(:last-child)
 			margin-bottom: 0
 
@@ -343,33 +368,22 @@
 		font-size: 14px
 		line-height: 1.42
 		color: var(--clr-black)
-		+lg
-			font-size: 16px
-		+xs
-			font-size: 12px
-			padding: 0 8px
+
+		+sm
+			font-size: 14px
 			line-height: 1.5
-		&:not(:last-child)
-			margin-bottom: 10px
-			+lg
-				margin-bottom: 12px
-			//+med
-			//	margin-bottom: 12px
+
 
 	&__info
 		font-size: 14px
 		line-height: 1.48
 		color: var(--clr-gray)
-		letter-spacing: -1.2px
+		letter-spacing: -0.03em
 		margin-bottom: 10px
-		+lg
-			letter-spacing: 0
-			line-height: 1.5
-		+xs
-			font-size: 12px
-			padding: 0 8px
+		margin-top: 10px
+
 		+sm
-			margin-bottom: 16px
+			font-size: 14px
 
 		a
 			color: inherit
@@ -387,8 +401,6 @@
 		display: flex
 		align-items: center
 		flex-wrap: wrap
-		+med
-			flex-direction: column
 
 	&__socials
 		&:not(:last-child)
@@ -424,8 +436,9 @@
 		background-color: var(--tag-clr)
 
 		+med
-			left: 6px
-			right: 6px
+			left: 8px
+			right: auto
+			bottom: 8px
 
 
 	&__details
@@ -464,33 +477,40 @@
 				+sm
 					font-size: 12px
 					padding-top: 0
+
 			.s-item__text
 				font-size: 12px
 				line-height: 1.3
+
 			.s-item__description
 				font-size: 14px
 				line-height: 1.3
 				margin-top: 20px
+
 				&:hover
 					text-decoration: underline
 					color: var(--clr-white)
+				+med
+					font-size: 12px
+
 			.slider__title
 				font-size: 14px
 				margin-bottom: 12px
 				min-height: 28px
 				font-weight: 400
 				// opacity: 0.8
-				+sm
+				+med
 					font-size: 12px
 					margin-bottom: 4px
 					min-height: unset
+
 			.s-item__title
 				+fira
 				font-weight: 500
 				font-size: 14px
 
-				+sm
-					font-size: 14px
+				+med
+					font-size: 12px
 
 
 

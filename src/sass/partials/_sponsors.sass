@@ -1,0 +1,195 @@
+.sponsors
+	padding: 100px 0 100px
+	color: var(--clr-green)
+	background: var(--clr-white)
+	+lg
+		padding: 80px 0 80px
+	+med
+		padding: 50px 0 50px
+		
+	&__title
+		&:not(:last-child)
+			margin-bottom: 78px
+			+lg
+				margin-bottom: 39px
+			+med
+				margin-bottom: 33px
+	&__descr
+		//max-width: 870px
+
+		a
+			color: var(--clr-green)
+			&:hover
+				text-decoration: none
+
+		&:not(:last-child)
+			margin-bottom: 88px
+			+lg
+				margin-bottom: 35px
+			+med
+				margin-bottom: 24px
+	&__item
+		display: flex
+		&:not(:last-child)
+			margin-bottom: 58px
+			+lg
+				margin-bottom: 39px
+			+med
+				margin-bottom: 20px
+
+
+.logos
+	margin-left: 0
+	width: 100%
+	position: relative
+
+	+med
+		margin: 0
+
+	&__inner
+		width: 100%
+		min-height: 397px
+		color: var(--clr-green)
+		position: relative
+		background-color: var(--clr-white)
+		display: flex
+		justify-content: center
+		align-items: center
+		padding: 0 40px 0 80px
+		display: flex
+		flex-direction: column
+		border: 2px solid var(--clr-green)
+
+		+lg
+			min-height: 280px
+		+med
+			margin-left: 0
+			padding: 0
+		+sm
+			min-height: unset
+
+	&__title
+		+fira
+		font-weight: 700
+		position: absolute
+		left: 28px
+		top: -16px
+		font-size: 32px
+		line-height: 1
+		padding: 0px 8px 0px
+		flex-shrink: 0
+		background: var(--clr-white)
+
+		+lg
+			font-size: 36px
+			padding: 10px 12px
+		+med
+			font-size: 32px
+			padding: 5px 13px 0
+
+	&__empty
+		width: 100%
+		position: relative
+		overflow: hidden
+		//&:after
+			position: absolute
+			content: ''
+			display: block
+			width: 150%
+			height: 1px
+			top: 50%
+			left: 50%
+			transform: translate(-50%, -50%) rotate(18deg)
+			background-color: var(--clr-green)
+	&__content
+		display: flex
+		flex-wrap: wrap
+		justify-content: center
+		width: 100%
+		margin: auto 0
+		+med
+			padding: 20px 20px
+		+xs
+			padding: 20px 0
+	&__link
+		display: flex
+		justify-content: center
+		align-items: center
+		padding: 20px
+		width: 50%
+		transition: all .1s
+		transform: scale(1)
+
+		&:hover
+			// opacity: 0.8
+			transform: scale(1.03)
+
+		img
+			max-width: 100%
+			max-height: 150px
+
+		+lg
+			padding: 20px 20px
+		+med
+			width: 100%
+			padding: 16px 20px
+
+			img
+				max-height: 120px
+	&_md
+		.logos
+			&__content
+				//+med
+					padding-top: 0
+			&__link
+				width: 33.33%
+
+				&.square
+					width: 23%
+
+				+med
+					width: 50%
+					padding: 10px 20px
+					&.square
+						width: 35%
+				+sm
+					padding: 10px 15px
+				//+sm
+					width: 100%
+					//padding: 10px 46px
+	&_sm
+		.logos
+			&__content
+				padding-top: 0
+			&__link
+				width: 25%
+
+				+med
+					width: 33%
+					padding: 10px 20px
+
+				+sm
+					padding: 10px 15px
+					width: 50%
+
+	&_xs
+		.logos
+			&__content
+				//+med
+					padding-top: 0
+			&__link
+				width: 20%
+				+med
+					width: 25%
+					padding: 10px 20px
+				+sm
+					width: 33.3%
+					padding: 10px
+	&_xs
+		.logos
+
+			&__content
+				padding: 20px 0
+		
+		img
+			max-height: 100px

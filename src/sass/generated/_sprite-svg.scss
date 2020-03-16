@@ -2,9 +2,19 @@
 	background: url("../sprite.svg") no-repeat;
 }
 
-.svg-arrow-link {
+.svg-arrow-left {
 	@extend %svg-common;
 	background-position: 0 0;
+}
+
+.svg-arrow-left-dims {
+	width: 13px;
+	height: 22.8px;
+}
+
+.svg-arrow-link {
+	@extend %svg-common;
+	background-position: 4.593639575971731% 7.77027027027027%;
 }
 
 .svg-arrow-link-dims {
@@ -12,9 +22,19 @@
 	height: 13px;
 }
 
+.svg-arrow-right {
+	@extend %svg-common;
+	background-position: 9.507042253521126% 12.578616352201259%;
+}
+
+.svg-arrow-right-dims {
+	width: 13px;
+	height: 22.8px;
+}
+
 .svg-calendar {
 	@extend %svg-common;
-	background-position: 6.511627906976744% 6.532663316582915%;
+	background-position: 15.09433962264151% 21.299638989169676%;
 }
 
 .svg-calendar-dims {
@@ -24,7 +44,7 @@
 
 .svg-fb {
 	@extend %svg-common;
-	background-position: 19.913419913419915% 21.73913043478261%;
+	background-position: 25.622775800711743% 31.92982456140351%;
 }
 
 .svg-fb-dims {
@@ -34,7 +54,7 @@
 
 .svg-gh {
 	@extend %svg-common;
-	background-position: 27.43362831858407% 32.70142180094787%;
+	background-position: 31.884057971014492% 39.792387543252595%;
 }
 
 .svg-gh-dims {
@@ -44,7 +64,7 @@
 
 .svg-location {
 	@extend %svg-common;
-	background-position: 38.604651162790695% 44.72361809045226%;
+	background-position: 41.132075471698116% 48.73646209386282%;
 }
 
 .svg-location-dims {
@@ -54,7 +74,7 @@
 
 .svg-mail {
 	@extend %svg-common;
-	background-position: 53.48837209302326% 58.875048657065%;
+	background-position: 53.20754716981132% 58.902370203160274%;
 }
 
 .svg-mail-dims {
@@ -64,7 +84,7 @@
 
 .svg-med {
 	@extend %svg-common;
-	background-position: 65.33333333333333% 68.69158878504673%;
+	background-position: 62.90909090909091% 66.0958904109589%;
 }
 
 .svg-med-dims {
@@ -72,9 +92,19 @@
 	height: 17px;
 }
 
+.svg-play {
+	@extend %svg-common;
+	background-position: 71.36060894386299% 75.81227436823104%;
+}
+
+.svg-play-dims {
+	width: 23.74px;
+	height: 32px;
+}
+
 .svg-sl {
 	@extend %svg-common;
-	background-position: 72.59450171821305% 75.64575645756457%;
+	background-position: 77.43988684582743% 82.08955223880596%;
 }
 
 .svg-sl-dims {
@@ -84,7 +114,7 @@
 
 .svg-tw {
 	@extend %svg-common;
-	background-position: 82.14285714285714% 85.23809523809524%;
+	background-position: 85.4014598540146% 89.23611111111111%;
 }
 
 .svg-tw-dims {
@@ -94,7 +124,7 @@
 
 .svg-we {
 	@extend %svg-common;
-	background-position: 89.6103896103896% 93.02325581395348%;
+	background-position: 91.45907473309609% 94.88054607508532%;
 }
 
 .svg-we-dims {

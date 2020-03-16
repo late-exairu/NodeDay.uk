@@ -11,6 +11,9 @@
 	&.dark
 		background: none
 
+	&.marged-top
+		margin: 120px
+
 	&__head
 		display: flex
 
@@ -19,6 +22,9 @@
 
 	&__head-l
 		flex: 0 1 52%
+
+		.basic-btn
+			margin: 25px 0 0
 
 		+med
 			flex: 0 1 100%
@@ -30,6 +36,9 @@
 		.basic-btn
 			margin: auto 0 auto auto
 
+			+med
+				margin: 25px auto 0 0
+
 		
 	&__title
 		font-family: var(--fira)
@@ -38,6 +47,17 @@
 		line-height: 1
 		margin: 0px 0 25px
 		color: var(--clr-green)
+
+		&.outer
+			position: absolute
+			left: 45px
+			top: 0
+			transform: translateY(-50%)
+			margin: 0
+			padding: 0 15px
+
+			&:before
+				display: none
 
 		+med
 			font-size: 22px
@@ -49,6 +69,18 @@
 		&:before
 			content: '>'
 			margin: 0 20px 0 0
+
+		
+	&__subtitle
+		font-family: var(--fira)
+		font-size: 22px
+		line-height: 1.4
+		margin: 0px 0 25px
+		color: var(--clr-white)
+
+		+med
+			font-size: 18px
+			margin: 0px 0 14px
 		
 	&__desc
 		font-family: var(--menlo)
@@ -62,3 +94,45 @@
 			margin: 14px 0 0
 
 
+
+
+.basic-list-wrap
+	margin: 32px 0 0
+
+.basic-list-title
+	+menlo
+	font-weight: 400
+	font-size: 16px
+	line-height: 1.4
+	margin: 12px 0
+	color: var(--clr-gray)
+
+
+.basic-list
+	+fira
+	font-size: 18px
+	line-height: 1.4
+	padding: 0
+	margin: 0
+	list-style: none
+	color: var(--clr-green)
+
+	+sm
+		font-size: 16px
+
+	&__item
+		margin: 0
+		&:not(:first-child)
+			margin: 9px 0 0
+
+		&:before
+			content: '>'
+			margin: 0 10px 0 0
+			color: var(--clr-green)
+
+		a
+			text-decoration: none
+			color: var(--clr-green)
+
+			&:hover
+				text-decoration: underline

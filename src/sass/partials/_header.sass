@@ -16,21 +16,29 @@
 
 	.container
 		position: relative
-		max-width: 1210px
+		max-width: 1460px
 		display: flex
 		justify-content: space-between
 		padding: 20px 68px
 		flex: 1
 		
+		+xxl
+		
 		+xl
-			max-width: 1010px
+			// max-width: 1010px
 
 		+lg
-			max-width: 768px
+			// max-width: 768px
 			padding: 9px 58px 9px 5px
+			margin: 0 50px
 
 		+med
-			max-width: 896px
+			// max-width: 896px
+			margin: 0 20px
+
+		+sm
+			// max-width: 896px
+			margin: 0 0
 
 	&__logo
 		position: relative

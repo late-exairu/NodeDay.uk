@@ -1,8 +1,7 @@
 .table
-	border: 2px solid var(--clr-green)
-	background: var(--clr-black)
-
 	+menlo
+	border: 2px solid var(--clr-green)
+	background: var(--clr-blackD)
 	font-size: 22px
 	line-height: 1.6
 	color: var(--clr-green)
@@ -27,11 +26,14 @@
 	&__body
 		position: relative
 		z-index: 2
-		background-color: var(--clr-black)
+		background: var(--clr-blackD)
 
 	&__row
 		display: flex
 		position: relative
+
+		+med
+			border-bottom: 2px solid var(--clr-green)
 
 		&:not(:last-child)
 			&:after
@@ -53,7 +55,6 @@
 		width: 100%
 		+med
 			display: block
-			border-left: 2px solid var(--clr-grayL)
 			width: 100%
 		+xs
 			border-color: var(--clr-grayL)
@@ -86,7 +87,6 @@
 			width: 100%
 			+med
 				width: 100%
-				border-top: 2px solid #f8f8f8
 
 		&:not(.table__col_lg)
 			// border-right: 2px solid var(--clr-grayL)
